@@ -301,5 +301,230 @@ body
                     p 你也可以添加
                         code .pre-scrollable
                         | 类，把该区域设置成最大高度为350px并带有一个Y轴滚动条
-                    p 上传真尼玛蛋疼
+                div.row-fluid
+                    h3 表格默认样式
+                    p 为
+                        code  &lt; table &gt;
+                        | 标签增加基本样式--很少的内补(padding)并只能增加水平分割线--只要为其增加
+                        code .table
+                        | 类即可。
+                    div.clearfix.example
+                        div.span12
+                            table.table
+                                thead
+                                    tr
+                                        th #
+                                        th First Name
+                                        th Last Name
+                                        th Username
+                                tbody
+                                    tr
+                                        td 1
+                                        td Mark
+                                        td Otto
+                                        td @mdo
+                                    tr
+                                        td 2
+                                        td Jacob
+                                        td Thornton
+                                        td @fat
+                                    tr
+                                        td 3
+                                        td Larry
+                                        td the Bird
+                                        td @twitter
+                div.row-fluid
+                    h3 可选的类
+                    p 下面所列出的类是为了补充
+                        code .table
+                        | 类的基本样式的
+                    h4
+                        code .table-striped
+                    p   在
+                        code &lt; tbody &gt;
+                        | 内，通过
+                        code :nth-child
+                        | CSS选择器(IE7-8不支持)为表格中的行添加斑马纹样式
+                    div.clearfix.example
+                        div.span12
+                            table.table.table-striped
+                                thead
+                                    tr
+                                        th #
+                                        th First Name
+                                        th Last Name
+                                        th Username
+                                tbody
+                                    tr
+                                        td 1
+                                        td Mark
+                                        td Otto
+                                        td @mdo
+                                    tr
+                                        td 2
+                                        td Jacob
+                                        td Thornton
+                                        td @fat
+                                    tr
+                                        td 3
+                                        td Larry
+                                        td the Bird
+                                        td @twitter
+                    h4
+                        code .table-hover
+                    p   为
+                        code &lt; tbody &gt;
+                        | 中的每一行赋予鼠标悬停样式
+                    div.clearfix.example
+                        div.span12
+                            table.table.table-hover
+                                thead
+                                    tr
+                                        th #
+                                        th First Name
+                                        th Last Name
+                                        th Username
+                                tbody
+                                    tr
+                                        td 1
+                                        td Mark
+                                        td Otto
+                                        td @mdo
+                                    tr
+                                        td 2
+                                        td Jacob
+                                        td Thornton
+                                        td @fat
+                                    tr
+                                        td 3
+                                        td Larry
+                                        td the Bird
+                                        td @twitter
+                    h4
+                        code .table-condensed
+                    p   每个单元的内补(padding)减半可使表格更紧凑
+                    div.clearfix.example
+                        div.span12
+                            table.table.table-condensed
+                                thead
+                                    tr
+                                        th #
+                                        th First Name
+                                        th Last Name
+                                        th Username
+                                tbody
+                                    tr
+                                        td 1
+                                        td Mark
+                                        td Otto
+                                        td @mdo
+                                    tr
+                                        td 2
+                                        td Jacob
+                                        td Thornton
+                                        td @fat
+                                    tr
+                                        td 3
+                                        td Larry
+                                        td the Bird
+                                        td @twitter
+                div.row-fluid
+                    h3 可选的行属性
+                    p   选择情景(contextual)类为表格添加颜色
+                    div.clearfix.example
+                        div.span12
+                            table.table
+                                thead
+                                    tr
+                                        th #
+                                        th First Name
+                                        th Last Name
+                                        th Username
+                                tbody
+                                    tr.success
+                                        td 1
+                                        td Mark
+                                        td Otto
+                                        td @mdo
+                                    tr.error
+                                        td 2
+                                        td Jacob
+                                        td Thornton
+                                        td @fat
+                                    tr.warning
+                                        td 3
+                                        td Larry
+                                        td the Bird
+                                        td @twitter
+                                    tr.info
+                                        td 4
+                                        td Larry
+                                        td the Bird
+                                        td @twitter
+                div.row-fluid
+                    h3  受支持的表格标签
+                    p   受支持的表格标签列表以及使用方法
+                    div.clearfix.example
+                        div.span12
+                            table.table
+                                thead
+                                    tr
+                                        td  标签
+                                        td  描述
+                                tbody
+                                    tr
+                                        td
+                                            code   &lt;table&gt;
+                                        td  包裹以表格形式展示数据的元素
+                                    tr
+                                        td
+                                            code    &lg;thead&gt;
+                                        td  包含表头(
+                                            code    &lt;tr&gt;
+                                            |  ) 的容器
+                                    tr
+                                        td
+                                            code    &lt;tbody&gt;
+                                        td  包含表格内容(
+                                            code    &lt;tr&gt;
+                                            |   )的容器
+                                    tr
+                                        td
+                                            code    &lt;tr&gt;
+                                        td  单元格(
+                                            code    &lt;td&gt;
+                                            |   )或(
+                                            code    &lt;th&gt;
+                                            |   )容器
+                                    tr
+                                        td
+                                            code    &lt;td&gt;
+                                        td  默认的单元格
+                                    tr
+                                        td
+                                            code    &lt;th&gt;
+                                        td  每列(或行，依赖于放置的位置)所对应的label
+                                    tr
+                                        td
+                                            code    &lt;caption&gt;
+                                        td  用于对表的描述或总结，对屏幕阅读器特别有用
+                div.row-fluid
+                    h3  表单的默认样式
+                    p   无需对
+                        code &lt;form&gt;
+                        |   添加任何类或改变标签结构，每个单独的表单控件都已经被赋予了样式。默认是堆叠、label左侧对齐并在控件之上。
+                    div.clearfix.example
+                        div.span12
+                            form
+                                legend  legend
+                                label   Label name
+                                input(type='text',placeholder='Type something…')
+                                label.checkbox
+                                    input(type='checkbox')
+                                    |   Check me out
+
+
+
+
+
 
