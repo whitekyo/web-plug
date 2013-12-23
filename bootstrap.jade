@@ -1,0 +1,304 @@
+//
+   Created with JetBrains WebStorm.
+   User: Yangchen
+   Date: 13-12-22
+   Time: 下午12:57
+   To change this template use File | Settings | File Templates.
+head
+    link(href='stylesheets/bootstrap.min.css',type='text/css',rel='stylesheet')
+    link(href='stylesheets/style.css',type='text/css',rel='stylesheet')
+body
+    div.container-fluid
+        div.row-fluid
+            div.span3
+            div.span9
+                div.row-fluid
+                    h3 标题
+                    div.clearfix.example
+                        div.span12
+                            h1 h1.Heading 1
+                            h2 h2.Heading 2
+                            h3 h3.Heading 3
+                            h4 h4.Heading 4
+                            h5 h5.Heading 5
+                            h6 h6.Heading 6
+                div.row-fluid
+                    h3 Body copy
+                    p Bootstrap定义的全局
+                        code font-size是
+                        strong 14px
+                        | ，
+                        code line-height
+                        | 是
+                        strong 20px
+                        | 。这些样式应用到了
+                        code body
+                        | 和所有的段落上，另外，对
+                        code p
+                        | 还定义了1/2行高(默认为10px)和底部外边距(margin)属性
+                    div.clearfix.example
+                        div.span12
+                            p Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+                            p Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
+                            p Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+                div.row-fluid
+                    h3 Lead body copy
+                    p 通过添加
+                        code .lead
+                        | 让段落突出显示
+                    div.clearfix.example
+                        div.span12
+                            p.lead Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+                div.row-fluid
+                    h3 使用Less工具构建
+                    p
+                        strong variable.less
+                        | 文件中定义的两个LESS变量决定了排版尺寸:
+                        code @baseFontSize
+                        | 和
+                        code @baseLineHeight
+                        | 。第一个变量定义了全局变量font-size基准，第二个变量是line-height基准。我们使用这些变量和一些简单的公式计算出其他所有页面的margin、padding和line-height。自定义这些变量即可改变Bootstrap的默认样式
+                div.row-fluid
+                    h3 强调
+                    p 直接使用HTML中用于标注强调的标签，并给它们赋予少许的样式。
+                    h3
+                        code small
+                    p 对于不需要强调的inline或block类型的文本，使用small标签。
+                    div.clearfix.example
+                        div.span12
+                            p
+                                small This line of text is meant to be treated as fine print.
+                div.row-fluid
+                    h3 加粗
+                    p 用增加font-weight值的方式加粗强调一段文本
+                    div.clearfix.example
+                        div.span12
+                            p The following snippet to text is
+                                strong rendered as bold text
+                div.row-fluid
+                    h3 斜体
+                    p 用斜体强调一段文本
+                    div.clearfix.example
+                        div.span12
+                            p The following snippet to text is
+                                em rendered as italicized text
+                    p
+                        span.label.label-info 注意
+                        | 在HTML5中任意使用
+                        code b
+                        | 和
+                        code i
+                        | 。
+                        code b
+                        | 是为了高亮词或短语而不会赋予重要含义，
+                        code i
+                        | 主要被用来表示发言、技术术语等。
+                div.row-fluid
+                    h3 对齐类
+                    p 简单方便将文字对齐的类
+                    div.clearfix.example
+                        div.span12
+                            p.text-left 左对齐文字
+                            p.text-center 中对齐文字
+                            p.text-right 右侧对齐文字
+                div.row-fluid
+                    h3 强调类
+                    p 这些用去强调的工具类通过颜色来表示强调
+                    div.clearfix.example
+                        div.span12
+                            p.muted Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.
+                            p.text-warining Etiam porta sem malesuada magna mollis euismod.
+                            p.text-error Donec ullamcorper nulla non metus auctor fringilla.
+                            p.text-info Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis.
+                            p.text-success Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+                div.row-fluid
+                    h3 缩略语
+                    p 当鼠标悬停在缩写和缩写词上时就会显示完整内容，Bootstrap实现了对HTML
+                        code abbr
+                        | 元素的增强样式。缩略语元素带有
+                        code title
+                        | 属性，外观表现为带有较浅的虚线框，鼠标移至上面时会变成带有“问号”的指针。
+                    h3
+                        code abbr
+                    p 如想看完整的内容可把鼠标悬停在缩略语上, 但需要包含
+                        code title
+                        | 属性
+                    div.clearfix.example
+                        div.span12
+                            p An abbreviation of the word attribute is
+                                abbr(title='attribute') attr
+                div.row-fluid
+                    h3 地址
+                    p 让联系信息以最接近日常使用格式呈现
+                    h3
+                        code address
+                    p 在每行结尾添加
+                        code br
+                        |  可以保留需要的样式
+                    div.clearfix.example
+                        div.span12
+                            address
+                                strong Twitter, Inc.
+                                br
+                                | 795 Folsom Ave, Suite 600
+                                br
+                                | San Francisco, CA 94107
+                                br
+                                    abbr(title='Phone') P:
+                                | (123) 456-7890
+                            address
+                                strong Full Name
+                                br
+                                a(href='mailto:#') first.last@example.com
+                div.row-fluid
+                    h3 引用选项
+                    p 在标准的引用里，可以简化的改变风格和内容
+                    h4 命名来源
+                    p 添加
+                        code small
+                        | 标签来注明引用来源。来源名称可以放在
+                        code cite
+                        | 标签里面。
+                    div.clearfix.example
+                        div.span12
+                            blockquote
+                                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                                    small Someone famous
+                                        cite(title='Source Title') Source Title
+                    h4 另一种展示风格
+                    p 使用
+                        code .pull-right
+                        | 类，可以让引用展现出向右侧移动、对齐的效果
+                    div.clearfix.example
+                        div.span12
+                            blockquote.pull-right
+                                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                                    small Someone famous
+                                        cite(title='Source Title') Source Title
+                div.row-fluid
+                    h3 列表
+                    h4 无序列表
+                    p 无序列表是不关心先后顺序的一组元素的集合
+                    div.clearfix.example
+                        div.span12
+                            ul
+                                li Lorem ipsum dolor sit amet
+                                li Consectetur adipiscing elit
+                                li Integer molestie lorem at massa
+                                li Facilisis in pretium nisl aliquet
+                                li Nulla volutpat aliquam velit
+                                    ul
+                                        li Phasellus iaculis neque
+                                        li Purus sodales ultricies
+                                        li Vestibulum laoreet porttitor sem
+                                        li Ac tristique libero volutpat at
+                                li Faucibus porta lacus fringilla vel
+                                li Aenean sit amet erat nunc
+                                li Eget porttitor lorem
+                div.row-fluid
+                    h3 有序列表
+                    p 有序列表是强调顺序的一组元素的集合
+                    div.clearfix.example
+                        div.span12
+                            ol
+                                li Lorem ipsum dolor sit amet
+                                li Consectetur adipiscing elit
+                                li Integer molestie lorem at massa
+                                li Facilisis in pretium nisl aliquet
+                                li Nulla volutpat aliquam velit
+                                li Faucibus porta lacus fringilla vel
+                                li Aenean sit amet erat nunc
+                                li Eget porttitor lorem
+                div.row-fluid
+                    h3 无样式列表
+                    p 移除默认的
+                        code list-style
+                        | ，并左侧填充列表(只对直接子节点项有效)
+                    div.clearfix.example
+                        div.span12
+                            ul.unstyled
+                                li Lorem ipsum dolor sit amet
+                                li Consectetur adipiscing elit
+                                li Integer molestie lorem at massa
+                                li Facilisis in pretium nisl aliquet
+                                li Nulla volutpat aliquam velit
+                                    ul
+                                        li Phasellus iaculis neque
+                                        li Purus sodales ultricies
+                                        li Vestibulum laoreet porttitor sem
+                                        li Ac tristique libero volutpat at
+                                li Faucibus porta lacus fringilla vel
+                                li Aenean sit amet erat nunc
+                                li Eget porttitor lorem
+                div.row-fluid
+                    h3 行内列表
+                    p 使用
+                        code inline
+                        | 类让列表项水平排列成一行，同时每项都有少量的内补(padding)
+                    div.clearfix.example
+                        div.span12
+                            ul.inline
+                                li Lorem ipsum
+                                li Phasellus iaculis
+                                li Nulla volutpat
+                div.row-fluid
+                    h3 描述
+                    p 对一个列表(条目)进行关联描述
+                    div.clearfix.example
+                        div.span12
+                            dl
+                                dt Description lists
+                                dd A description list is perfect for defining terms.
+                                dt Euismod
+                                dd Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
+                                dd Donec id elit non mi porta gravida at eget metus.
+                                dt Malesuada porta
+                                dd Etiam porta sem malesuada magna mollis euismod.
+                    h4 水平描述
+                    p 使
+                        code dl
+                        | 中的每个条目和其描述一对一水平显示
+                    div.clearfix.example
+                        div.span12
+                            dl.dl-horizontal
+                                dt Description lists
+                                dd A description list is perfect for defining terms.
+                                dt Euismod
+                                dd Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
+                                dd Donec id elit non mi porta gravida at eget metus.
+                                dt Malesuada porta
+                                dd Etiam porta sem malesuada magna mollis euismod.
+                                dt Felis euismod semper eget lacinia
+                                dd Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                    p
+                        span.label.label-info 注意!
+                        | 通过加入
+                        code text-overflow
+                        | ，水平描述列表将会对过长而无法在左栏中完全显示的列名截断掉一部分。而在较窄的视口（宽度）中，会改变成垂直(形式)表述，来适应当前屏幕。
+                div.row-fluid
+                    h3 行内代码
+                    p 通过
+                        code &lt; code &gt;
+                        | 标签内嵌一小段代码
+                    div.clearfix.example
+                        div.span12
+                            p For example，
+                                code &lt; section &gt;
+                                | should be wrapped as inline
+                div.row-fluid
+                    h3 基本代码块
+                    p 使用
+                        code &lt; prev &gt;
+                        | 展示多行代码。为了能够正确展示，务必将代码中的任何尖括号做转义
+                    div.clearfix.example
+                        div.span12
+                            prev &lt;p&gt; Sample text here &lt;/p&gt;
+                    p
+                        span.label.label-info 注意！
+                        | 因为在
+                        code &lt; prev &gt;
+                        | 标签里，tab会被算进去，所以要保持代码尽量可能的靠左侧
+                    p 你也可以添加
+                        code .pre-scrollable
+                        | 类，把该区域设置成最大高度为350px并带有一个Y轴滚动条。
+
