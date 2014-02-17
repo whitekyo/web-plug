@@ -10,3 +10,7 @@ exports.index = function(req, res){
 exports.bootstrap = function(req,res){
     res.render('bootstrap',{ title: 'Bootstrap'});
 }
+
+exports.bootstrap3 = function(req,res){
+    res.render('bootstrap3',{ title: 'Bootstraps'});
+};
