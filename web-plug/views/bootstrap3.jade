@@ -2,10 +2,42 @@
    Created by yangcheng on 14-2-15.
 head
     link(href='stylesheets/bootstrap.css',type='text/css',rel='stylesheet')
+    link(href='stylesheets/common.css',type='text/css',rel='stylesheet')
 body
+    div.container
+        div.row-fluid
+            div.span4
+                ul.nav
+                    li
+                        a(href='javascript:void(0);').barBtn
+                            |Friends
+                    li
+                        a(href='javascript:void(0);').barBtn
+                            |Messages
+                    li
+                        a(href='javascript:void(0);').barBtn
+                            |Mpcoming Events
+                        ul.nav-child
+                            li
+                                a(href='javascript:void(0);')
+                                    |Monday
+                            li
+                                a(href='javascript:void(0);')
+                                    |Tuesday
+                            li
+                                a(href='javascript:void(0);')
+                                    |Wednesday
+                    li
+                        a(href='javascript:void(0);').barBtn
+                            |Episodes
+                    li
+                        a(href='javascript:void(0);').barBtn
+                            |Game Message
+                    li
+            div.span8
+
     script(type='text/javascript',src='JavaScript/jquery-1.10.2.min.js')
     script(type='text/javascript',src='JavaScript/app.js')
     script
-        alert({body:"<img src='photo/123.jpg'>"});
-
-
+        //alert(1);
+        //confirm(2);
