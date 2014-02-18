@@ -81,29 +81,70 @@
                 .hide() //删除效果更好
                 .trigger('hidden');
         }
-        if($.fn.box.defaults.arrUid){
+        /*if($.fn.box.defaults.alert){
             setTimeout(function(){
-                var goCallback = $.fn.box.defaults.arrCallback.shift();
-                if(typeof goCallback == 'function'){ goCallback();}
-                var id = $.fn.box.defaults.arrUid.shift(),flag;
-                if(id)$('body').find('#id'+id.toString()).remove();//删除之前显示的modal
+                var obj = $.fn.box.defaults.alertBag.shift(),callback = obj.callback,uid = obj.uid,flag;
+                if(typeof callback == 'function'){ callback();}
+                if(uid)$('body').find('#id'+uid).remove();
                 $('.alert').each(function(){
-                    if($(this).css('display').toLowerCase() == 'block'){
-                        flag = true;
-                    }
-                })
-                if(!flag){
-                    $('#id'+$.fn.box.defaults.arrUid[0]).box('show');
-                }
+                    if($(this).css('display').toLowerCase() == 'block'){ flag = true;}
+                });
+                if(!flag && $.fn.box.defaults.alertBag[0]){ $('#id'+ $.fn.box.defaults.alertBag[0].uid).box('show');}
+                $.fn.box.defaults.alert = false;
             },300);
         }
         if($.fn.box.defaults.confirm){
-            if($(that).hasClass('true')){
-                if(typeof $.fn.box.defaults.confirmArr[0] == 'function')$.fn.box.defaults.confirmArr[0]();
-            }else if($(that).hasClass('false')){
-                if(typeof $.fn.box.defaults.confirmArr[1] == 'function')$.fn.box.defaults.confirmArr[1]();
+            setTimeout(function(){
+                var obj = $.fn.box.defaults.confirmBag.shift(),uid = obj.uid,successCallback = obj.successCallback,failCallback = obj.failCallback,flag;
+                if($(that).hasClass('true')){
+                    if(typeof successCallback == 'function')successCallback();
+                }else if($(that).hasClass('false')){
+                    if(typeof failCallback == 'function')failCallback();
+                }
+                if(uid)$('#confirm'+uid).remove();
+                $('.confirm').each(function(){
+                    if($(this).css('display').toLowerCase() == 'block'){ flag = true;}
+                });
+                if(!flag && $.fn.box.defaults.confirmBag[0]){ $('#confirm'+ $.fn.box.defaults.confirmBag[0].uid).box('show');}
+                $.fn.box.defaults.confirm = false;
+            },300);
+
+        }*/
+        var secondTrigger = function(flag){
+            if(!flag && $.fn.box.defaults.eventQueue[0] && $.fn.box.defaults.eventQueue[0].flag == 'alert'){
+                $('#id'+ $.fn.box.defaults.eventQueue[0].uid).box('show');
+            }else if(!flag && $.fn.box.defaults.eventQueue[0] && $.fn.box.defaults.eventQueue[0].flag == 'confirm'){
+                $('#confirm'+ $.fn.box.defaults.eventQueue[0].uid).box('show');
             }
-        }
+            if(!$.fn.box.defaults.eventQueue[0]){ $.fn.box.defaults.queueEmpty = true;}
+        };
+        setTimeout(function(){
+            var obj = $.fn.box.defaults.eventQueue.shift(),callback,uid,flag,successCallback,failCallback;
+            if(obj.flag == 'alert' && !$.fn.box.defaults.queueEmpty){
+                callback = obj.callback;
+                uid = obj.uid;
+                if(typeof callback == 'function'){ callback();}
+                if(uid)$('body').find('#id'+uid).remove();
+                $('.box').each(function(){
+                    if($(this).css('display').toLowerCase() == 'block'){ flag = true;}
+                });
+                secondTrigger(flag);
+            }else if(obj.flag == 'confirm' && !$.fn.box.defaults.queueEmpty){
+                successCallback = obj.successCallback;
+                failCallback = obj.failCallback;
+                uid = obj.uid;
+                if($(that).hasClass('true')){
+                    if(typeof successCallback == 'function')successCallback();
+                }else if($(that).hasClass('false')){
+                    if(typeof failCallback == 'function')failCallback();
+                }
+                if(uid)$('#confirm'+uid).remove();
+                $('.box').each(function(){
+                    if($(this).css('display').toLowerCase() == 'block'){ flag = true;}
+                });
+                secondTrigger(flag);
+            }
+        },300);
         backdrop.call(this)
     }
     function backdrop( callback ) {
@@ -185,10 +226,13 @@
         , keyboard: true
         , show: true
         , alertId : 1
-        , arrUid: []
-        , arrCallback: []
+        , confirmId : 1
+        , alert: false
         , confirm: false
-        , confirmArr: []
+        , alertBag: []
+        , confirmBag: []
+        , eventQueue: []
+        , queueEmpty: false
     };
     $.fn.box.Constructor = Box;
     $(function () {
@@ -201,14 +245,10 @@
         });
     })
     var modal_template = [
-            '<div class="modal fade alert" id="$0','" style="display: none; z-index:1060;">',
-                '<div class="modal-header">',
-                    '<a class="close" data-dismiss="modal"></a>',
-                    /*'$1',*/
-                '</div>',
-                '<div class="modal-body">',
-                    /*'$2',*/
-                '</div>',
+            '<div class="modal fade box" id="$0','" style="display: none; z-index:1060;">',
+                "<div class='modal-body'>",
+                    "<p>$1</p>",
+                "</div>",
                 '<div class="modal-footer">',
                     '<a href="#" class="btn btn-primary" data-dismiss="modal">关闭</a>',
                 '</div>',
@@ -217,80 +257,45 @@
         modal_dom = modal_template.join('');
     /*
     * var options = {
+    *   default: true or false
     *   head: '', none|其他
     *   body: '', none|其他
     *   style: {css样式},
     *   callback: callback
     * }
     * */
-    window.alert = function(options){
-        console.log($);
-        var uid = $.fn.box.defaults.alertId++,$alert = $(modal_dom),$head = $alert.find('.modal-header'),$body = $alert.find('.modal-body'),flag;
-        if(!options['head']){
-            $head.remove();
-        }else{
-            $head.append(options['head']);
-        }
-        if(!options['body']){
-            $body.remove();
-        }else{
-            $body.append(options['body']);
-        }
-        if(options['callback']){
-            $.fn.box.defaults.arrUid.push(callback);
-        }
-        $.fn.box.defaults.arrUid.push(uid);
-        $alert[0].id = 'id'+uid;
-        $('body').append($alert);
-        $('.alert').each(function(){
-            if($(this).css('display').toLowerCase() == 'block'){ flag = true; }
-        })
-        if(!flag){
-            var $modal = $('#id'+$.fn.box.defaults.arrUid[0]);
-            $modal.box('show');
-        }
+     window.alert = function(content,callback){
+        var uid = $.fn.box.defaults.alertId++,modal_Ndom = modal_dom.replace(/\$0/,'id'+uid).replace(/\$1/,content),flag;$('body').append(modal_Ndom);
+        $.fn.box.defaults.eventQueue.push({uid: uid, callback:callback,flag:'alert'});
+        $.fn.box.defaults.alert = true;
+        $('.box').each(function(){
+            if($(this).css('display').toLowerCase() == 'block'){ flag = true;}
+        });
+        if(!flag){ var $modal = $('#id'+ $.fn.box.defaults.eventQueue[0].uid); $modal.box('show');}
     };
-    /*window.alert = function(head,text,callback){
-        var uid = $.fn.box.defaults.alertId++,head = typeof head == 'string'?head:'';
-        if(text == void 0){
-            text = head;
-            head = '提示框';
-        }
-        var modal_Ndom = modal_dom.replace(/\$0/,'id'+uid).replace(/\$1/,head),flag;
-        $('body').append(modal_Ndom);
-        $.fn.box.defaults.arrUid.push(uid);
-        $.fn.box.defaults.arrCallback.push(callback);
-        var $alert = $('#id'+uid);
-        text = text?text:'';
-        $alert.find('.modal-body').text(text);
-        $('.alert').each(function(){
-            if($(this).css('display').toLowerCase() == 'block'){ flag = true; }
-        })
-        if(!flag){
-            var $modal = $('#id'+$.fn.box.defaults.arrUid[0]);
-            $modal.box('show');
-        }
-    };*/
     var confirm_template = [
-        "<div class='modal fade' id='myConfirm' style='display: none; z-index:1060;'>",
-        "<div class='modal-header'>",
-        "<h3>提示框</h3>",
-        "</div>",
-        "<div class='modal-body'>",
-        "<p>$1</p>",
-        "</div>",
-        "<div class='modal-footer'>",
-        "<a href='#' class='btn true' data-dismiss='modal'>确定</a>",
-        "<a href='#' class='btn btn-primary false' data-dismiss='modal'>取消</a>",
-        "</div>",
+        '<div class="modal fade box" id="$0','" style="display: none; z-index:1060;">',
+            "<div class='modal-header'>",
+                "<h3>提示</h3>",
+            "</div>",
+            "<div class='modal-body'>",
+                "<p>$1</p>",
+            "</div>",
+            "<div class='modal-footer'>",
+                "<a href='#' class='btn btn-primary true' data-dismiss='modal'>确定</a>",
+                "<a href='#' class='btn  false' data-dismiss='modal'>取消</a>",
+            "</div>",
         "</div>"
     ];
     window.confirm = function(content,callback1,callback2){
-        $('body').append(confirm_template.join('').replace(/\$1/,content));
+        var uid = $.fn.box.defaults.confirmId++,flag;
+        $('body').append(confirm_template.join('').replace(/\$1/,content).replace(/\$0/,'confirm'+uid));
+        $.fn.box.defaults.eventQueue.push({uid:uid,successCallback:callback1,failCallback:callback2,flag:'confirm'});
         $.fn.box.defaults.confirm = true;
-        if(callback1){$.fn.box.defaults.confirmArr.push(callback1);}
-        if(callback2){$.fn.box.defaults.confirmArr.push(callback2);}
-        $('#myConfirm').box('show');
+        $('.box').each(function(){
+            if($(this).css('display').toLowerCase() == 'block'){ flag = true;}
+        });
+        if(!flag){ var $confirm = $('#confirm'+ $.fn.box.defaults.eventQueue[0].uid); $confirm.box('show');}
     };
 
 })( window.jQuery);
