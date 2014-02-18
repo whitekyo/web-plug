@@ -1,0 +1,6 @@
+.nav {margin: 0; padding:0; list-style-type: none; width: 210px;}
+.nav a { display: block; color: #585858; text-decoration: none; border: 1px solid #54545b; border-bottom:0px; height: 30px; padding: 4px 6px 4px 6px; background:linear-gradient(to bottom,#ffffff,#e8e8e8 25%,#e0e0e0 50%,#d7d7d7 75%,#d3d3d3);line-height: 30px;}
+.nav:last-child { border-bottom: 1px solid #54545b;}
+.nav .barBtn:hover, .nac .barBtn:focus { color: #ffffff; background: linear-gradient(to bottom,#37cedc,#2487a7 25%,#226992 50%,#185c8f 75%,#145f95);}
+.nav-child { margin: 0; padding: 0; list-style-type: none; width: 210px;}
+.nav-child a { border: 1px solid #383835; border-bottom: 0px; background: linear-gradient(to bottom,#242424,#505050 25%,#585858 50%,#505050 75%,#242424);color: #ffffff;}
