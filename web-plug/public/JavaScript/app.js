@@ -120,7 +120,8 @@
         };
         setTimeout(function(){
             var obj = $.fn.box.defaults.eventQueue.shift(),callback,uid,flag,successCallback,failCallback;
-            if(obj.flag == 'alert' && !$.fn.box.defaults.queueEmpty){
+            /*if(obj.flag == 'alert' && !$.fn.box.defaults.queueEmpty){*/
+            if(obj.flag == 'alert'){
                 callback = obj.callback;
                 uid = obj.uid;
                 if(typeof callback == 'function'){ callback();}
@@ -129,7 +130,7 @@
                     if($(this).css('display').toLowerCase() == 'block'){ flag = true;}
                 });
                 secondTrigger(flag);
-            }else if(obj.flag == 'confirm' && !$.fn.box.defaults.queueEmpty){
+            }else if(obj.flag == 'confirm'){
                 successCallback = obj.successCallback;
                 failCallback = obj.failCallback;
                 uid = obj.uid;

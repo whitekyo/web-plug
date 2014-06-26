@@ -1,0 +1,79 @@
+/* iCheck plugin Minimal skin
+----------------------------------- */
+[class*='icheckbox_minimal'], [class*='iradio_minimal']{
+    display:block;
+    margin: 0;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    border: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+[class*='icheckbox_minimal']{
+    background-position: 0 0;
+}
+[class*='icheckbox_minimal'].hover{
+    background-position: -20px 0;
+}
+[class*='icheckbox_minimal'].checked{
+    background-position: -40px 0;
+}
+[class*='icheckbox_minimal'].disabled{
+    background-position: -60px 0;
+    cursor: default;
+}
+[class*='icheckbox_minimal'].checked.disabled{
+    background-position: -80px 0;
+}
+[class*='iradio_minimal']{
+    background-position: -100px 0;
+}
+[class*='iradio_minimal'].hover{
+    background-position: -120px 0;
+}
+[class*='iradio_minimal'].checked{
+    background-position: -140px 0;
+}
+[class*='iradio_minimal'].disabled{
+    background-position: -160px 0;
+    cursor: default;
+}
+[class*='iradio_minimal'].checked.disabled{
+    background-position: -180px 0;
+}
+.icheckbox_minimal, .iradio_minimal {
+    background-image: url(minimal.png);
+}
+.icheckbox_minimal-red, .iradio_minimal-red {
+    background-image: url(red.png);
+}
+.icheckbox_minimal-green, .iradio_minimal-green {
+    background-image: url(green.png);
+}
+.icheckbox_minimal-blue, .iradio_minimal-blue {
+    background-image: url(blue.png);
+}
+.icheckbox_minimal-aero, .iradio_minimal-aero {
+    background-image: url(aero.png);
+}
+.icheckbox_minimal-grey, .iradio_minimal-grey {
+    background-image: url(grey.png);
+}
+.icheckbox_minimal-orange, .iradio_minimal-orange {
+    background-image: url(orange.png);
+}
+.icheckbox_minimal-yellow, .iradio_minimal-yellow {
+    background-image: url(yellow.png);
+}
+.icheckbox_minimal-pink, .iradio_minimal-pink {
+    background-image: url(pink.png);
+}
+.icheckbox_minimal-purple, .iradio_minimal-purple {
+    background-image: url(purple.png);
+}
+.icheckbox_minimal-white, .iradio_minimal-white {
+    background-image: url(white.png);
+}
+
+/* Retina support */

@@ -3,6 +3,7 @@
 head
     link(href='stylesheets/bootstrap.css',type='text/css',rel='stylesheet')
     link(href='stylesheets/common.css',type='text/css',rel='stylesheet')
+    link(href='stylesheets/minimal/_all.css',type='text/css',rel='stylesheet')
 body
     div.container
         div.row-fluid
@@ -10,34 +11,84 @@ body
                 ul.nav
                     li
                         a(href='javascript:void(0);').barBtn
-                            |Friends
-                    li
-                        a(href='javascript:void(0);').barBtn
-                            |Messages
-                    li
-                        a(href='javascript:void(0);').barBtn
-                            |Mpcoming Events
-                        ul.nav-child
+
+                            |Start
+                        ul.nav-child.clearfix
                             li
                                 a(href='javascript:void(0);')
-                                    |Monday
+                                    span.user
+                                    |Friends
+                                ul.nav-grand-child
+                                    li
+                                        a(href='javascript:void(0);')
+                                            |Monday
+                                    li
+                                        a(href='javascript:void(0);')
+                                            |Tuesday
+                                    li
+                                        a(href='javascript:void(0);')
+                                            |Wednesday
                             li
                                 a(href='javascript:void(0);')
-                                    |Tuesday
+                                    span.message
+                                    |Message
                             li
                                 a(href='javascript:void(0);')
-                                    |Wednesday
-                    li
-                        a(href='javascript:void(0);').barBtn
-                            |Episodes
-                    li
-                        a(href='javascript:void(0);').barBtn
-                            |Game Message
-                    li
+                                    span.music
+                                    |Mpcoming Events
+                            li
+                                a(href='javascript:void(0);')
+                                    span.search
+                                    |Episodes
+                            li.lastBorder
+                                a(href='javascript:void(0);')
+                                    span.movie
+                                    |Game Message
             div.span8
+                - obj = {first_name: 'George',surname: 'Ornbo'}
+                - each val,key in obj
+                  li #{key}: #{val}
+                - raining = true
+                - if(raining)
+                  p It is raining. Take an umbrella!
+                - else
+                  p No rain.Take the bike!
+
+                mixin users(users)
+                    ul
+                        each user in users
+                            li= user
+                - users = ['Tanya','Jose','Kim']
+                mixin users(users)
+                - more_users = ['Mark','Elena','Dave','Pete','Keiron']
+                mixin users(more_users)
+                h2 Form example
+                form(method='post',action='/dopost')
+                    fieldset
+                        legend Add a user
+                        p
+                            label First name
+                            input(name='user[first_name]')
+                        p
+                            label Last name
+                            input(name='user[surname]')
+                        p
+                            input(type='submit',value='save')
+
+
 
     script(type='text/javascript',src='JavaScript/jquery-1.10.2.min.js')
+    script(type='text/javascript',src='JavaScript/jquery.icheck.min.js')
     script(type='text/javascript',src='JavaScript/app.js')
+    script(type='text/javascript',src='JavaScript/RME.js')
     script
-        //alert(1);
-        //confirm(2);
+        /*$('.barBtn').on('click',function(e){
+            var $tg = $(e.target);
+            if($tg.hasClass('active')){
+                $tg.removeClass('active');
+            }else{
+                $tg.addClass('active');
+            }
+        });
+        confirm('1');*/
+

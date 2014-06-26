@@ -1,0 +1,14 @@
+//
+   Created by yangcheng on 14-2-27.
+h1  Edit task view
+form(method='post',action='/tasks/'+ task.id)
+    input(name='_method',value='put',type='hidden')
+    fieldset
+        legend Editing task
+        div.clearfix
+            label   Task
+            div.input
+                input(name='task[task]',class='xlarge',value='#{task.task}')
+            div.action
+                input(type='submit',value='Save',class='btn btn-primary')
+                button(type='reset',class='btn')    Cancel

@@ -1,0 +1,272 @@
+//
+   Created by yangcheng on 14-3-6.
+include layout_common
+header.headroom.headroom--unpinned.header
+    div.container.clearfix
+        a.brand(href='javascript:void(0);')
+            |Demo
+article.container
+    h3.text-center
+        |checkbox的关联关系(一对多，互斥)，依赖框架bootstrap icheck
+    article.module.clearfix
+        h5 例子1:  一对多的情况
+        p.introduceTxt
+            |  选择姓名可以同时关联两个兴趣，当两个兴趣都被去掉的时候，姓名项也将被去掉。
+            |  该插件采用json格式的对象存储各个checkbox的关联关系，根据以上的信息，我们将内容存放在一个名为relationTable的对象中
+            |  其中#name,#hobby1和#hobby2皆是对应的id。
+        p.introduceCode
+            |   var relationTable = [
+            |        {
+            |            name: '#name',
+            |            relation: {
+            |                and: [
+            |                    '#hobby1',
+            |                    '#hobby2'
+            |                ]
+            |            }
+            |        }
+            |    ];
+        table.table.table-bordered.table-condensed.testTable
+            thead
+                tr
+                    th
+                        span Name
+                    th
+                        span hobby1
+                    th
+                        span hobby2
+            tbody
+                tr
+                    td
+                        label.checkbox.inline
+                            input#name(type='checkbox')
+                    td
+                        label.checkbox.inline
+                            input#hobby1(type='checkbox')
+                    td
+                        label.checkbox.inline
+                            input#hobby2(type='checkbox')
+        h5  例子2:  互斥的情况
+        p.introduceTxt
+            |  选择你所在的年龄段，我们在该一组checkbox上添加一个自定义属性data-exclusion，其值为需要互斥的各项的id，并用感叹号分隔。
+        p.introduceCode
+            |  data-exclusion="#A!#B!#C"
+        div(style='width:1000px; margin:0 auto;')
+            label.checkbox.inline
+                input#A(type='checkbox',data-exclusion="#A!#B!#C",data-toggle="tooltip" title="该元素的ID为A")
+            label.checkbox.inline
+                input#B(type='checkbox',data-exclusion="#A!#B!#C",data-toggle="tooltip" title="该元素的ID为B")
+            label.checkbox.inline
+                input#C(type='checkbox',data-exclusion="#A!#B!#C",data-toggle="tooltip" title="该元素的ID为C")
+        h5  例子3：  或的情况
+        p.introduceTxt
+            |  选择班级的时候，至少要关联一门学科。
+        p.introduceCode
+            |  var relationTable = [
+            |  {
+            |    name: '#class',
+            |    relation: {
+            |        or: [
+            |            '#subject1',
+            |            '#subject2'
+            |        ]
+            |    }
+            |    }
+            | ];
+        table.table.table-bordered.table-condensed.testTable
+            thead
+                tr
+                    th
+                        span Class
+                    th
+                        span Subject1
+                    th
+                        span Subject2
+            tbody
+                tr
+                    td
+                        label.checkbox.inline
+                            input#class(type='checkbox')
+                    td
+                        label.checkbox.inline
+                            input#subject1(type='checkbox')
+                    td
+                        label.checkbox.inline
+                            input#subject2(type='checkbox')
+        h5  导入RME.js文件，页面调用checkboxPlug.setTable方法，其参数是放入你定义的关系表，最后调用checkboxPlug.init初始化。
+        p.introduceCode
+            |   checkboxPlug.setTable([
+            |    {
+            |       name: '#name',
+            |       relation: {
+            |           and: [
+            |               '#hobby1',
+            |               '#hobby2'
+            |               ]
+            |      }
+            |   },
+            |   {
+            |       name: '#class',
+            |       relation: {
+            |           or: [
+            |               '#subject1',
+            |               '#subject2'
+            |           ]
+            |       }
+            |   }
+            |]);
+        p.introduceCode
+            |   checkboxPlug.init();
+    h3.text-center
+        | 上传
+    article.module
+        form(method='post',action='/upload',enctype='multipart/form-data')
+            input.x-upload(type='file',id="houseMaps",name="houseMaps")
+
+                | 上传
+    article.module
+        div.progress.progress-success.progress-striped.uploadProgress
+            div.bar(style='width:0%;')
+    article.module
+        form(action='',id='form1')
+            | username:
+            input(type='text',class="",name='username',id='username')
+            | password:
+            input(type='text',class='password',name='password')
+            | new password:
+            input(type='text',name='newpassword')
+            button(type='submit')
+                |提交
+    h3.text-center
+        | 管理ajax
+    article.module
+        input(type='text',id='ajaxinput')
+        a.btn.ajax(href='javascript:void(0);')
+            | ajax请求
+
+script(type='text/javascript',src='JavaScript/RME.js')
+script(type='text/javascript',src='JavaScript/md5.js')
+script(type='text/javascript',src="JavaScript/jquery-validation-1.11.1/jquery.validate.js")
+script(type='text/javascript',src='JavaScript/jquery-validation-1.11.1/messages_zh.js')
+script(type='text/javascript',src='JavaScript/underscore-1.6.js')
+script(type='text/javascript',src='JavaScript/SunivoWeb-ui-1.0.1.js')
+script
+    $(document).trigger('initover');
+    $('#ajaxinput').keypress(function(){
+        $.ajax({
+            'type': 'post',
+            'dataType': 'json',
+            'url': '/ajaxinput',
+            success: function(){
+
+            }
+        });
+    });
+    var a = new sw();
+    a.formValidation({
+        moduleName: 'bubbleTip',
+        _context: $('#form1'),
+        rules: {
+            'username': {
+                'required': true,
+                'remote': {
+                    'url': '/ajaxValidation'
+                }
+            },
+            'newpassword': {
+                'remote': {
+                    'url': '/ajaxPassword',
+                    data:{'password':function(){return $(".password").val();}}//自定义传入参数
+                }
+            }
+        }
+    });
+    a.upload({
+        context: $('.x-upload'),
+        cssRule: {
+            width: '100px',
+            height: '30px',
+            'background-color': 'black',
+            'color': 'white',
+            'text-align': 'center',
+            'line-height': '30px',
+            'text-decoration': 'none',
+            'font-family': '微软'
+        },
+        async: {
+            url:'/upload?method=post',            //需要链接到服务器地址
+             secureuri:false,
+             fileElementId:'houseMaps',                  //文件选择框的id属性
+             dataType: 'HTML',                            //服务器返回的格式，可以是json
+             data: { name: 'yangcheng'},
+             success: function (data, status){           //相当于java中try语句块的用法
+                $('#result').html('添加成功');
+             },
+             error: function (data, status, e){          //相当于java中catch语句块的用法
+                $('#result').html('添加失败');
+             }
+        }
+    });
+    /*$('#form1').validate({
+        'rules': {
+            'username': {
+                'required': true,
+                'remote': '/ajaxValidation'
+            }
+        }
+    });*/
+    function ajaxFileUpload(){
+        $.ajaxFileUpload(
+           {
+             url:'/upload?method=post',            //需要链接到服务器地址
+             secureuri:false,
+             fileElementId:'houseMaps',                  //文件选择框的id属性
+             dataType: 'HTML',                            //服务器返回的格式，可以是json
+             data: { name: 'yangcheng'},
+             success: function (data, status){           //相当于java中try语句块的用法
+                $('#result').html('添加成功');
+             },
+             error: function (data, status, e){          //相当于java中catch语句块的用法
+                $('#result').html('添加失败');
+             }
+           });
+        }
+    $(document).ready(function(){
+      $('input').iCheck({
+        checkboxClass: 'icheckbox_square-purple',
+        radioClass: 'iradio_square-red',
+        increaseArea: '20%' // optional
+        });
+      checkboxPlug.setTable([
+            {
+                name: '#name',
+                relation: {
+                    and: [
+                        '#hobby1',
+                        '#hobby2'
+                    ]
+                }
+            },
+            {
+                name: '#class',
+                relation: {
+                    or: [
+                        '#subject1',
+                        '#subject2'
+                    ]
+                }
+            }
+        ]);
+        checkboxPlug.init();
+      $('input').on('ifChecked',function(){
+        $(this).tooltip('show');
+      });
+      $('input').on('ifUnchecked',function(){
+        $(this).tooltip('hide');
+      });
+
+    });
+
+
+
+

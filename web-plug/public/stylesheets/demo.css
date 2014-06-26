@@ -1,0 +1,11 @@
+body { font-family: "klavika-web", "Microsoft Yahei", "微软雅黑", "\5fae\8f6f\96c5\9ed1", "sans-serif"; background-color: #FFFFCC;}
+.header { background-color: #292f36;}
+.brand { display: inline-block; padding: 10px 0; color: #CC6699;}
+.brand:hover,.brand:focus { text-decoration: none; color: #FF0099;}
+.module { background-color: #ffffff;}
+.testTable { width:1000px; margin: 0 auto;}
+.testTable td,.testTable th {text-align: center;}
+.testTable th span { font-size: 14px;}
+.introduceTxt { color: #333333; width: 1000px; margin: 0 auto;  font-size: 12px;}
+.introduceCode { color: #CC3300; width: 1000px; margin: 0 auto; padding: 10px 0px; font-size: 12px;}
+h5 { padding: 10px 20px;}
