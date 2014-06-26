@@ -134,18 +134,39 @@ var globalForm = [],percentArr = [];
 app.post('/upload',function(req,res){
     var form = new formidable.IncomingForm();
     var _randomId,fs = require('fs');
+    var content = {};
+    fs.stat('F:\\node-pic',function(err,stats){
+        if(err){
+            console.log('创建新文件咯');
+            fs.mkdirSync('F:\\node-pic');
+        }else{
+            console.log('我已经创建好咯，不需要创建了');
+        }
+
+    });
     form.parse(req,function(err,fields,files){
+        var name = files.houseMaps.name,newName = name.split('.')[0]+ randomNumber.randomString(8)  +'.'+  name.split('.')[1];
+
         fs.readFile(files.houseMaps.path,function(err,data){
-            console.log(err);
-            console.log(data);
+            fs.writeFileSync('F:\\node-pic\\'+ newName,data);
+            fs.stat('F:\\node-pic\\'+ newName,function(err,stats){
+                if(err){
+                    content.error = '图片上传不成功';
+                }else {
+                    content.url = 'F:\\node-pic\\'+ newName;
+                }
+                console.log(content);
+                res.send(content);//服务器停止提供信息
+            });
         });
         /*var filename = randomNumber.randomString(8)+files.filedata.name;
-        _randomId = fields.randomId;
-        fs.open('D:\\tmp\\'+ filename,'w+',files,function(err,fd){
-            if(err) throw err;
-        });
-        globalForm.push({randomId: _randomId,form: form,process:'0'});*/
+         _randomId = fields.randomId;
+         fs.open('D:\\tmp\\'+ filename,'w+',files,function(err,fd){
+         if(err) throw err;
+         });
+         globalForm.push({randomId: _randomId,form: form,process:'0'});*/
     });
+
     /*var count = 1;
     form.on('progress',function(bytesReceived,bytesExpected,ending){
         var percent = Math.round(bytesReceived/bytesExpected * 100);
@@ -165,7 +186,7 @@ app.post('/upload',function(req,res){
     /*form.on('end',function(req,res){
         res.send(req.body);
     });*/
-    res.end();//服务器停止提供信息
+
     //res.send({id:obj.id});
 });
 /*app.post('/uploadFile',function(req,res){

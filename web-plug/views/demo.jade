@@ -121,6 +121,7 @@ article.container
         | 上传
     article.module
         form(method='post',action='/upload',enctype='multipart/form-data')
+            img.x-show-pic(src='')
             input.x-upload(type='file',id="houseMaps",name="houseMaps")
 
                 | 上传
@@ -143,7 +144,6 @@ article.container
         input(type='text',id='ajaxinput')
         a.btn.ajax(href='javascript:void(0);')
             | ajax请求
-
 script(type='text/javascript',src='JavaScript/RME.js')
 script(type='text/javascript',src='JavaScript/md5.js')
 script(type='text/javascript',src="JavaScript/jquery-validation-1.11.1/jquery.validate.js")
@@ -197,10 +197,13 @@ script
             url:'/upload?method=post',            //需要链接到服务器地址
              secureuri:false,
              fileElementId:'houseMaps',                  //文件选择框的id属性
-             dataType: 'HTML',                            //服务器返回的格式，可以是json
+             dataType: 'json',                            //服务器返回的格式，可以是json
              data: { name: 'yangcheng'},
              success: function (data, status){           //相当于java中try语句块的用法
-                $('#result').html('添加成功');
+                if(data.url){
+                    alert('上传成功')
+                    $('.x-show-pic')[0].src = data.url.replace('\/','\\');
+                }
              },
              error: function (data, status, e){          //相当于java中catch语句块的用法
                 $('#result').html('添加失败');
