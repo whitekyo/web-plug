@@ -7,9 +7,13 @@ jQuery.extend({
             var frameId = 'jUploadFrame' + id;
             //兼容低版本IE
             if(window.ActiveXObject) {
-                //var io = document.createElement('<iframe id="' + frameId + '" name="' + frameId + '" />');
-                var io = document.createElement('iframe');
-                io.id = frameId, io.name = frameId;
+                var io;
+                try{
+                    io = document.createElement('<iframe id="' + frameId + '" name="' + frameId + '" />');
+                }catch(e){
+                    io = document.createElement('iframe');
+                    io.id = frameId, io.name = frameId;
+                }
                 if(typeof uri== 'boolean'){
                     io.src = 'javascript:false';
                 }
@@ -55,6 +59,7 @@ jQuery.extend({
         var id = s.fileElementId;//获取上传的input的id
 		var form = jQuery.createUploadForm(id, s.fileElementId);//创建form，加入form，并返回form
 		var io = jQuery.createUploadIframe(id, s.secureuri);//创建iframe，加入iframe，并返回iframe
+        //var io = jQuery.createUploadIframe(id, s.secureuri);//创建iframe，加入iframe，并返回iframe
 		var frameId = 'jUploadFrame' + id;
 		var formId = 'jUploadForm' + id;		
         // Watch for a new set of requests
@@ -169,7 +174,6 @@ jQuery.extend({
 			{				
                 form.enctype = 'multipart/form-data';//设置enctype，能让form提交文件，后台能接到
             }
-            console.log($(form));
             $(form).submit();//提交form
 
         } catch(e) 

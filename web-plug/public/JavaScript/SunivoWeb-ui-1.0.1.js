@@ -266,6 +266,7 @@
                 context.each(function(){
                     SW.createFormForUpload($(this),param);
                     if(!_.isEmpty(async)){
+                        console.log(this);
                         SW.bindUploadEvent($(this),async);
                     }
                 });
@@ -1218,7 +1219,7 @@
             $.extend(async,{
                 secureuri:false
             });
-            context.on('change',function(){
+            context.parent().on('change',context,function(){//处理file控件只能触发一次的黑色魔法
                 $.ajaxFileUpload(async);
             });
         }

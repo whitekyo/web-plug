@@ -133,29 +133,32 @@ app.get('/demo',function(req,res){
 var globalForm = [],percentArr = [];
 app.post('/upload',function(req,res){
     var form = new formidable.IncomingForm();
+    console.log('进来了');
     var _randomId,fs = require('fs');
-    var content = {};
-    fs.stat('F:\\node-pic',function(err,stats){
+    var content = {},basePath = __dirname,picPath = basePath + '\\public\\node-pic';
+    fs.stat(picPath,function(err,stats){
         if(err){
             console.log('创建新文件咯');
-            fs.mkdirSync('F:\\node-pic');
+            fs.mkdirSync(picPath);
         }else{
             console.log('我已经创建好咯，不需要创建了');
         }
 
     });
+
     form.parse(req,function(err,fields,files){
         var name = files.houseMaps.name,newName = name.split('.')[0]+ randomNumber.randomString(8)  +'.'+  name.split('.')[1];
-
         fs.readFile(files.houseMaps.path,function(err,data){
-            fs.writeFileSync('F:\\node-pic\\'+ newName,data);
-            fs.stat('F:\\node-pic\\'+ newName,function(err,stats){
+            console.log(picPath + '\\' + newName);
+            fs.writeFileSync(picPath + '\\' + newName,data);
+            fs.stat(picPath + '\\' + newName,function(err,stats){
                 if(err){
                     content.error = '图片上传不成功';
                 }else {
-                    content.url = 'F:\\node-pic\\'+ newName;
+                    content.url = 'node-pic/' + newName;
                 }
                 console.log(content);
+                res.setHeader("Content-Type", "text/html");
                 res.send(content);//服务器停止提供信息
             });
         });
