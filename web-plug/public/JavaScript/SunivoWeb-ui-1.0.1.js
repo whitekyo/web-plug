@@ -266,7 +266,6 @@
                 context.each(function(){
                     SW.createFormForUpload($(this),param);
                     if(!_.isEmpty(async)){
-                        console.log(this);
                         SW.bindUploadEvent($(this),async);
                     }
                 });

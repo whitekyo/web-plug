@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0d71cd9-60ed-4e26-9c3f-0db2184380bc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-plug/public/JavaScript/jquery-1.7.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-plug/public/JavaScript/jquery-1.9.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-plug/public/font/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-plug/public/font/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-plug/public/font/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-plug/public/font/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-plug/public/css/font-awesome-ie7.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-plug/public/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-plug/public/font/fontawesome-webfont.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-plug/public/JavaScript/SunivoWeb-ui-1.0.1.js" afterPath="$PROJECT_DIR$/web-plug/public/JavaScript/SunivoWeb-ui-1.0.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-plug/public/JavaScript/ajaxfileupload.js" afterPath="$PROJECT_DIR$/web-plug/public/JavaScript/ajaxfileupload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-plug/app.js" afterPath="$PROJECT_DIR$/web-plug/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-plug/public/stylesheets/demo.css" afterPath="$PROJECT_DIR$/web-plug/public/stylesheets/demo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-plug/views/demo.jade" afterPath="$PROJECT_DIR$/web-plug/views/demo.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-plug/views/layout_common.jade" afterPath="$PROJECT_DIR$/web-plug/views/layout_common.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-plug/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/web-plug/public/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="web-plug.iws" />
@@ -33,16 +40,16 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-plug/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="59" selection-start="4419" selection-end="4419" vertical-scroll-proportion="-21.851852" vertical-offset="2130" max-vertical-offset="4318">
+            <state line="160" column="59" selection-start="4419" selection-end="4419" vertical-scroll-proportion="-8.62963" vertical-offset="2487" max-vertical-offset="4318">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxfileupload.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ajaxfileupload.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/ajaxfileupload.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="169" column="13" selection-start="6075" selection-end="6075" vertical-scroll-proportion="1.2395834" vertical-offset="1020" max-vertical-offset="2414">
+            <state line="76" column="48" selection-start="0" selection-end="7382" vertical-scroll-proportion="-19.518518" vertical-offset="765" max-vertical-offset="2414">
               <folding>
                 <element signature="e#2805#5524#0" expanded="false" />
               </folding>
@@ -53,7 +60,7 @@
       <file leaf-file-name="SunivoWeb-ui-1.0.1.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/SunivoWeb-ui-1.0.1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1221" column="81" selection-start="50877" selection-end="50877" vertical-scroll-proportion="-11.518518" vertical-offset="2409" max-vertical-offset="3230">
+            <state line="267" column="42" selection-start="9637" selection-end="9637" vertical-scroll-proportion="-15.111111" vertical-offset="918" max-vertical-offset="3213">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#1748#2472#0" expanded="false" />
@@ -61,100 +68,100 @@
                 <element signature="e#3381#5012#0" expanded="false" />
                 <element signature="e#5452#9297#0" expanded="false" />
                 <element signature="e#9326#9372#0" expanded="false" />
-                <element signature="e#9816#10004#0" expanded="false" />
-                <element signature="e#10051#10930#0" expanded="false" />
-                <element signature="e#10940#11050#0" expanded="false" />
-                <element signature="e#11082#11984#0" expanded="false" />
-                <element signature="e#11994#12068#0" expanded="false" />
-                <element signature="e#12100#12505#0" expanded="false" />
-                <element signature="e#12515#12686#0" expanded="false" />
-                <element signature="e#12745#15768#0" expanded="false" />
-                <element signature="e#15778#15901#0" expanded="false" />
-                <element signature="e#15926#17092#0" expanded="false" />
-                <element signature="e#17150#19401#0" expanded="false" />
-                <element signature="e#19411#19441#0" expanded="false" />
-                <element signature="e#19471#20259#0" expanded="false" />
-                <element signature="e#20293#21182#0" expanded="false" />
-                <element signature="e#21216#21851#0" expanded="false" />
-                <element signature="e#21889#22854#0" expanded="false" />
-                <element signature="e#22884#23203#0" expanded="false" />
-                <element signature="e#23233#24834#0" expanded="false" />
-                <element signature="e#24852#27024#0" expanded="false" />
-                <element signature="e#27034#27201#0" expanded="false" />
-                <element signature="e#27243#34688#0" expanded="false" />
-                <element signature="e#34698#34733#0" expanded="false" />
-                <element signature="e#34764#35045#0" expanded="false" />
-                <element signature="e#35055#35139#0" expanded="false" />
-                <element signature="e#35183#35553#0" expanded="false" />
-                <element signature="e#35563#35599#0" expanded="false" />
-                <element signature="e#35638#36752#0" expanded="false" />
-                <element signature="e#36762#36800#0" expanded="false" />
-                <element signature="e#36839#40292#0" expanded="false" />
-                <element signature="e#40343#41172#0" expanded="false" />
-                <element signature="e#41182#41216#0" expanded="false" />
-                <element signature="e#41248#41704#0" expanded="false" />
-                <element signature="e#41714#41748#0" expanded="false" />
-                <element signature="e#41782#42699#0" expanded="false" />
-                <element signature="e#42742#43003#0" expanded="false" />
-                <element signature="e#43033#43795#0" expanded="false" />
-                <element signature="e#43825#49480#0" expanded="false" />
-                <marker date="1403839139150" expanded="false" signature="1272:1286" placeholder="..." />
-                <marker date="1403839139150" expanded="false" signature="2702:2716" placeholder="..." />
-                <marker date="1403839139150" expanded="false" signature="16955:16981" placeholder="..." />
-                <marker date="1403839139150" expanded="false" signature="19546:19558" placeholder="..." />
-                <marker date="1403839139150" expanded="false" signature="37886:37925" placeholder="..." />
-                <marker date="1403839139150" expanded="false" signature="38901:38940" placeholder="..." />
-                <marker date="1403839139150" expanded="false" signature="49779:49798" placeholder="..." />
+                <element signature="e#9773#9961#0" expanded="false" />
+                <element signature="e#10008#10887#0" expanded="false" />
+                <element signature="e#10897#11007#0" expanded="false" />
+                <element signature="e#11039#11941#0" expanded="false" />
+                <element signature="e#11951#12025#0" expanded="false" />
+                <element signature="e#12057#12462#0" expanded="false" />
+                <element signature="e#12472#12643#0" expanded="false" />
+                <element signature="e#12702#15725#0" expanded="false" />
+                <element signature="e#15735#15858#0" expanded="false" />
+                <element signature="e#15883#17049#0" expanded="false" />
+                <element signature="e#17107#19358#0" expanded="false" />
+                <element signature="e#19368#19398#0" expanded="false" />
+                <element signature="e#19428#20216#0" expanded="false" />
+                <element signature="e#20250#21139#0" expanded="false" />
+                <element signature="e#21173#21808#0" expanded="false" />
+                <element signature="e#21846#22811#0" expanded="false" />
+                <element signature="e#22841#23160#0" expanded="false" />
+                <element signature="e#23190#24791#0" expanded="false" />
+                <element signature="e#24809#26981#0" expanded="false" />
+                <element signature="e#26991#27158#0" expanded="false" />
+                <element signature="e#27200#34645#0" expanded="false" />
+                <element signature="e#34655#34690#0" expanded="false" />
+                <element signature="e#34721#35002#0" expanded="false" />
+                <element signature="e#35012#35096#0" expanded="false" />
+                <element signature="e#35140#35510#0" expanded="false" />
+                <element signature="e#35520#35556#0" expanded="false" />
+                <element signature="e#35595#36709#0" expanded="false" />
+                <element signature="e#36719#36757#0" expanded="false" />
+                <element signature="e#36796#40249#0" expanded="false" />
+                <element signature="e#40300#41129#0" expanded="false" />
+                <element signature="e#41139#41173#0" expanded="false" />
+                <element signature="e#41205#41661#0" expanded="false" />
+                <element signature="e#41671#41705#0" expanded="false" />
+                <element signature="e#41739#42656#0" expanded="false" />
+                <element signature="e#42699#42960#0" expanded="false" />
+                <element signature="e#42990#43752#0" expanded="false" />
+                <element signature="e#43782#49437#0" expanded="false" />
+                <marker date="1403850491347" expanded="false" signature="1272:1286" placeholder="..." />
+                <marker date="1403850491347" expanded="false" signature="2702:2716" placeholder="..." />
+                <marker date="1403850491347" expanded="false" signature="16912:16938" placeholder="..." />
+                <marker date="1403850491347" expanded="false" signature="19503:19515" placeholder="..." />
+                <marker date="1403850491347" expanded="false" signature="37843:37882" placeholder="..." />
+                <marker date="1403850491347" expanded="false" signature="38858:38897" placeholder="..." />
+                <marker date="1403850491347" expanded="false" signature="49736:49755" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.jade" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="demo.jade" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web-plug/views/demo.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="70" selection-start="4374" selection-end="4374" vertical-scroll-proportion="-17.0" vertical-offset="1683" max-vertical-offset="4777">
+            <state line="155" column="49" selection-start="5328" selection-end="5328" vertical-scroll-proportion="0.41294965" vertical-offset="2348" max-vertical-offset="5253">
               <folding>
-                <marker date="1403838923711" expanded="true" signature="5568:5745" placeholder="{...}" />
-                <marker date="1403838923711" expanded="true" signature="5585:5737" placeholder="{&quot;type&quot;: 'post'...}" />
-                <marker date="1403838923711" expanded="true" signature="5711:5727" placeholder="{...}" />
-                <marker date="1403838923711" expanded="true" signature="5791:6276" placeholder="{&quot;moduleName&quot;: 'bubbleTip'...}" />
-                <marker date="1403838923711" expanded="true" signature="5872:6270" placeholder="{...}" />
-                <marker date="1403838923711" expanded="true" signature="5898:6038" placeholder="{&quot;required&quot;: true...}" />
-                <marker date="1403838923711" expanded="true" signature="5960:6024" placeholder="{&quot;url&quot;: '/ajaxValidation'...}" />
-                <marker date="1403838923711" expanded="true" signature="6067:6260" placeholder="{...}" />
-                <marker date="1403838923711" expanded="true" signature="6095:6246" placeholder="{&quot;url&quot;: '/ajaxPassword'...}" />
-                <marker date="1403838923711" expanded="true" signature="6292:7326" placeholder="{...}" />
-                <marker date="1403838923711" expanded="true" signature="6344:6624" placeholder="{&quot;width&quot;: '100px'...}" />
-                <marker date="1403838923711" expanded="true" signature="6641:7320" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-                <marker date="1403838923711" expanded="true" signature="6969:7172" placeholder="{...}" />
-                <marker date="1403838923711" expanded="true" signature="7029:7157" placeholder="{...}" />
-                <marker date="1403838923711" expanded="true" signature="7220:7310" placeholder="{...}" />
-                <marker date="1403838923711" expanded="true" signature="7333:7514" placeholder="/*...*/" />
-                <marker date="1403838923711" expanded="true" signature="7544:8164" placeholder="{...}" />
-                <marker date="1403838923711" expanded="true" signature="7583:8152" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-                <marker date="1403838923711" expanded="true" signature="7912:8001" placeholder="{...}" />
-                <marker date="1403838923711" expanded="true" signature="8049:8139" placeholder="{...}" />
-                <marker date="1403838923711" expanded="true" signature="8197:9072" placeholder="{...}" />
-                <marker date="1403838923711" expanded="true" signature="8223:8365" placeholder="{&quot;checkboxClass&quot;: 'icheckbox_square-purple'...}" />
-                <marker date="1403838923711" expanded="true" signature="8396:8858" placeholder="[...]" />
-                <marker date="1403838923711" expanded="true" signature="8410:8620" placeholder="{&quot;name&quot;: '#name'...}" />
-                <marker date="1403838923711" expanded="true" signature="8469:8606" placeholder="{...}" />
-                <marker date="1403838923711" expanded="true" signature="8496:8588" placeholder="[...]" />
-                <marker date="1403838923711" expanded="true" signature="8634:8848" placeholder="{&quot;name&quot;: '#class'...}" />
-                <marker date="1403838923711" expanded="true" signature="8694:8834" placeholder="{...}" />
-                <marker date="1403838923711" expanded="true" signature="8720:8816" placeholder="[...]" />
-                <marker date="1403838923711" expanded="true" signature="8932:8974" placeholder="{...}" />
-                <marker date="1403838923711" expanded="true" signature="9021:9063" placeholder="{...}" />
+                <marker date="1403862020041" expanded="true" signature="6370:6547" placeholder="{...}" />
+                <marker date="1403862020041" expanded="true" signature="6387:6539" placeholder="{&quot;type&quot;: 'post'...}" />
+                <marker date="1403862020041" expanded="true" signature="6513:6529" placeholder="{...}" />
+                <marker date="1403862020041" expanded="true" signature="6593:7078" placeholder="{&quot;moduleName&quot;: 'bubbleTip'...}" />
+                <marker date="1403862020041" expanded="true" signature="6674:7072" placeholder="{...}" />
+                <marker date="1403862020041" expanded="true" signature="6700:6840" placeholder="{&quot;required&quot;: true...}" />
+                <marker date="1403862020041" expanded="true" signature="6762:6826" placeholder="{&quot;url&quot;: '/ajaxValidation'...}" />
+                <marker date="1403862020041" expanded="true" signature="6869:7062" placeholder="{...}" />
+                <marker date="1403862020041" expanded="true" signature="6897:7048" placeholder="{&quot;url&quot;: '/ajaxPassword'...}" />
+                <marker date="1403862020041" expanded="true" signature="7094:8128" placeholder="{...}" />
+                <marker date="1403862020041" expanded="true" signature="7146:7426" placeholder="{&quot;width&quot;: '100px'...}" />
+                <marker date="1403862020041" expanded="true" signature="7443:8122" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
+                <marker date="1403862020041" expanded="true" signature="7771:7974" placeholder="{...}" />
+                <marker date="1403862020041" expanded="true" signature="7831:7959" placeholder="{...}" />
+                <marker date="1403862020041" expanded="true" signature="8022:8112" placeholder="{...}" />
+                <marker date="1403862020041" expanded="true" signature="8135:8316" placeholder="/*...*/" />
+                <marker date="1403862020041" expanded="true" signature="8346:8966" placeholder="{...}" />
+                <marker date="1403862020041" expanded="true" signature="8385:8954" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
+                <marker date="1403862020041" expanded="true" signature="8714:8803" placeholder="{...}" />
+                <marker date="1403862020041" expanded="true" signature="8851:8941" placeholder="{...}" />
+                <marker date="1403862020041" expanded="true" signature="8999:9874" placeholder="{...}" />
+                <marker date="1403862020041" expanded="true" signature="9025:9167" placeholder="{&quot;checkboxClass&quot;: 'icheckbox_square-purple'...}" />
+                <marker date="1403862020041" expanded="true" signature="9198:9660" placeholder="[...]" />
+                <marker date="1403862020041" expanded="true" signature="9212:9422" placeholder="{&quot;name&quot;: '#name'...}" />
+                <marker date="1403862020041" expanded="true" signature="9271:9408" placeholder="{...}" />
+                <marker date="1403862020041" expanded="true" signature="9298:9390" placeholder="[...]" />
+                <marker date="1403862020041" expanded="true" signature="9436:9650" placeholder="{&quot;name&quot;: '#class'...}" />
+                <marker date="1403862020041" expanded="true" signature="9496:9636" placeholder="{...}" />
+                <marker date="1403862020041" expanded="true" signature="9522:9618" placeholder="[...]" />
+                <marker date="1403862020041" expanded="true" signature="9734:9776" placeholder="{...}" />
+                <marker date="1403862020041" expanded="true" signature="9823:9865" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout_common.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-plug/views/layout_common.jade">
+      <file leaf-file-name="demo.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-plug/public/stylesheets/demo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="66" selection-start="463" selection-end="463" vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="357">
+            <state line="15" column="44" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
@@ -179,10 +186,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/web-plug/app.js" />
-        <option value="$PROJECT_DIR$/web-plug/views/layout_common.jade" />
-        <option value="$PROJECT_DIR$/web-plug/views/demo.jade" />
-        <option value="$PROJECT_DIR$/web-plug/public/JavaScript/SunivoWeb-ui-1.0.1.js" />
         <option value="$PROJECT_DIR$/web-plug/public/JavaScript/ajaxfileupload.js" />
+        <option value="$PROJECT_DIR$/web-plug/public/JavaScript/SunivoWeb-ui-1.0.1.js" />
+        <option value="$PROJECT_DIR$/web-plug/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/web-plug/views/layout_common.jade" />
+        <option value="$PROJECT_DIR$/web-plug/public/stylesheets/demo.css" />
+        <option value="$PROJECT_DIR$/web-plug/views/demo.jade" />
       </list>
     </option>
   </component>
@@ -305,7 +314,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScript" />
+              <option name="myItemId" value="font" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-plug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-plug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-plug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -325,10 +356,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\web-plug\web-plug\web-plug\public\font" />
+      <recent name="E:\web-plug\web-plug\web-plug\public\css" />
+      <recent name="E:\web-plug\web-plug\web-plug\public\stylesheets" />
       <recent name="E:\web-plug\web-plug\web-plug\public\JavaScript" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.web">
+  <component name="RunManager" selected="Node.js.web-plug">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -365,14 +399,14 @@
       <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
-    <configuration default="false" name="web" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="D:/nodejs/node" path-to-js-file="web-plug/app.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="web-plug" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="D:/nodejs/node" path-to-js-file="web-plug/app.js" working-dir="$PROJECT_DIR$">
       <browser start="false" url="" with-js-debugger="false" />
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.web" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.web-plug" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -384,19 +418,39 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931727" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16149461" sideWeight="0.6323752" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21849272" sideWeight="0.6323752" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28514057" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41097724" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -463,45 +517,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="145" column="20" selection-start="5058" selection-end="5058" vertical-scroll-proportion="0.0" vertical-offset="2465" max-vertical-offset="4777">
           <folding>
-            <marker date="1403838923711" expanded="true" signature="5568:5745" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="5585:5737" placeholder="{&quot;type&quot;: 'post'...}" />
-            <marker date="1403838923711" expanded="true" signature="5711:5727" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="5791:6276" placeholder="{&quot;moduleName&quot;: 'bubbleTip'...}" />
-            <marker date="1403838923711" expanded="true" signature="5872:6270" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="5898:6038" placeholder="{&quot;required&quot;: true...}" />
-            <marker date="1403838923711" expanded="true" signature="5960:6024" placeholder="{&quot;url&quot;: '/ajaxValidation'...}" />
-            <marker date="1403838923711" expanded="true" signature="6067:6260" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="6095:6246" placeholder="{&quot;url&quot;: '/ajaxPassword'...}" />
-            <marker date="1403838923711" expanded="true" signature="6292:7326" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="6344:6624" placeholder="{&quot;width&quot;: '100px'...}" />
-            <marker date="1403838923711" expanded="true" signature="6641:7320" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1403838923711" expanded="true" signature="6969:7172" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="7029:7157" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="7220:7310" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="7333:7514" placeholder="/*...*/" />
-            <marker date="1403838923711" expanded="true" signature="7544:8164" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="7583:8152" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1403838923711" expanded="true" signature="7912:8001" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="8049:8139" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="8197:9072" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="8223:8365" placeholder="{&quot;checkboxClass&quot;: 'icheckbox_square-purple'...}" />
-            <marker date="1403838923711" expanded="true" signature="8396:8858" placeholder="[...]" />
-            <marker date="1403838923711" expanded="true" signature="8410:8620" placeholder="{&quot;name&quot;: '#name'...}" />
-            <marker date="1403838923711" expanded="true" signature="8469:8606" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="8496:8588" placeholder="[...]" />
-            <marker date="1403838923711" expanded="true" signature="8634:8848" placeholder="{&quot;name&quot;: '#class'...}" />
-            <marker date="1403838923711" expanded="true" signature="8694:8834" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="8720:8816" placeholder="[...]" />
-            <marker date="1403838923711" expanded="true" signature="8932:8974" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="9021:9063" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="6370:6547" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="6387:6539" placeholder="{&quot;type&quot;: 'post'...}" />
+            <marker date="1403862020041" expanded="true" signature="6513:6529" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="6593:7078" placeholder="{&quot;moduleName&quot;: 'bubbleTip'...}" />
+            <marker date="1403862020041" expanded="true" signature="6674:7072" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="6700:6840" placeholder="{&quot;required&quot;: true...}" />
+            <marker date="1403862020041" expanded="true" signature="6762:6826" placeholder="{&quot;url&quot;: '/ajaxValidation'...}" />
+            <marker date="1403862020041" expanded="true" signature="6869:7062" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="6897:7048" placeholder="{&quot;url&quot;: '/ajaxPassword'...}" />
+            <marker date="1403862020041" expanded="true" signature="7094:8128" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="7146:7426" placeholder="{&quot;width&quot;: '100px'...}" />
+            <marker date="1403862020041" expanded="true" signature="7443:8122" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
+            <marker date="1403862020041" expanded="true" signature="7771:7974" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="7831:7959" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="8022:8112" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="8135:8316" placeholder="/*...*/" />
+            <marker date="1403862020041" expanded="true" signature="8346:8966" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="8385:8954" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
+            <marker date="1403862020041" expanded="true" signature="8714:8803" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="8851:8941" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="8999:9874" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="9025:9167" placeholder="{&quot;checkboxClass&quot;: 'icheckbox_square-purple'...}" />
+            <marker date="1403862020041" expanded="true" signature="9198:9660" placeholder="[...]" />
+            <marker date="1403862020041" expanded="true" signature="9212:9422" placeholder="{&quot;name&quot;: '#name'...}" />
+            <marker date="1403862020041" expanded="true" signature="9271:9408" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="9298:9390" placeholder="[...]" />
+            <marker date="1403862020041" expanded="true" signature="9436:9650" placeholder="{&quot;name&quot;: '#class'...}" />
+            <marker date="1403862020041" expanded="true" signature="9496:9636" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="9522:9618" placeholder="[...]" />
+            <marker date="1403862020041" expanded="true" signature="9734:9776" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="9823:9865" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="59" selection-start="4419" selection-end="4419" vertical-scroll-proportion="-21.851852" vertical-offset="2130" max-vertical-offset="4318">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -519,55 +566,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/views/layout_common.jade">
+    <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/ajaxfileupload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="66" selection-start="463" selection-end="463" vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="357">
+        <state line="76" column="48" selection-start="0" selection-end="7382" vertical-scroll-proportion="-19.518518" vertical-offset="765" max-vertical-offset="2414">
+          <folding>
+            <element signature="e#2805#5524#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-plug/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="59" selection-start="4419" selection-end="4419" vertical-scroll-proportion="-8.62963" vertical-offset="2487" max-vertical-offset="4318">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/views/demo.jade">
+    <entry file="file://$PROJECT_DIR$/web-plug/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="70" selection-start="4374" selection-end="4374" vertical-scroll-proportion="-17.0" vertical-offset="1683" max-vertical-offset="4777">
+        <state line="12" column="0" selection-start="271" selection-end="271" vertical-scroll-proportion="0.49394673" vertical-offset="0" max-vertical-offset="413">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-plug/public/photo/glyphicons-halflings.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-plug/public/css/font-awesome-ie7.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6630">
           <folding>
-            <marker date="1403838923711" expanded="true" signature="5568:5745" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="5585:5737" placeholder="{&quot;type&quot;: 'post'...}" />
-            <marker date="1403838923711" expanded="true" signature="5711:5727" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="5791:6276" placeholder="{&quot;moduleName&quot;: 'bubbleTip'...}" />
-            <marker date="1403838923711" expanded="true" signature="5872:6270" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="5898:6038" placeholder="{&quot;required&quot;: true...}" />
-            <marker date="1403838923711" expanded="true" signature="5960:6024" placeholder="{&quot;url&quot;: '/ajaxValidation'...}" />
-            <marker date="1403838923711" expanded="true" signature="6067:6260" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="6095:6246" placeholder="{&quot;url&quot;: '/ajaxPassword'...}" />
-            <marker date="1403838923711" expanded="true" signature="6292:7326" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="6344:6624" placeholder="{&quot;width&quot;: '100px'...}" />
-            <marker date="1403838923711" expanded="true" signature="6641:7320" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1403838923711" expanded="true" signature="6969:7172" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="7029:7157" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="7220:7310" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="7333:7514" placeholder="/*...*/" />
-            <marker date="1403838923711" expanded="true" signature="7544:8164" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="7583:8152" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1403838923711" expanded="true" signature="7912:8001" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="8049:8139" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="8197:9072" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="8223:8365" placeholder="{&quot;checkboxClass&quot;: 'icheckbox_square-purple'...}" />
-            <marker date="1403838923711" expanded="true" signature="8396:8858" placeholder="[...]" />
-            <marker date="1403838923711" expanded="true" signature="8410:8620" placeholder="{&quot;name&quot;: '#name'...}" />
-            <marker date="1403838923711" expanded="true" signature="8469:8606" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="8496:8588" placeholder="[...]" />
-            <marker date="1403838923711" expanded="true" signature="8634:8848" placeholder="{&quot;name&quot;: '#class'...}" />
-            <marker date="1403838923711" expanded="true" signature="8694:8834" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="8720:8816" placeholder="[...]" />
-            <marker date="1403838923711" expanded="true" signature="8932:8974" placeholder="{...}" />
-            <marker date="1403838923711" expanded="true" signature="9021:9063" placeholder="{...}" />
+            <marker date="1371429118000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1371429118000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1371429118000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1371429118000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1371429118000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1371429118000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1371429118000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1371429118000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/SunivoWeb-ui-1.0.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1221" column="81" selection-start="50877" selection-end="50877" vertical-scroll-proportion="-11.518518" vertical-offset="2409" max-vertical-offset="3230">
+        <state line="267" column="42" selection-start="9637" selection-end="9637" vertical-scroll-proportion="-15.111111" vertical-offset="918" max-vertical-offset="3213">
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#1748#2472#0" expanded="false" />
@@ -575,59 +620,110 @@
             <element signature="e#3381#5012#0" expanded="false" />
             <element signature="e#5452#9297#0" expanded="false" />
             <element signature="e#9326#9372#0" expanded="false" />
-            <element signature="e#9816#10004#0" expanded="false" />
-            <element signature="e#10051#10930#0" expanded="false" />
-            <element signature="e#10940#11050#0" expanded="false" />
-            <element signature="e#11082#11984#0" expanded="false" />
-            <element signature="e#11994#12068#0" expanded="false" />
-            <element signature="e#12100#12505#0" expanded="false" />
-            <element signature="e#12515#12686#0" expanded="false" />
-            <element signature="e#12745#15768#0" expanded="false" />
-            <element signature="e#15778#15901#0" expanded="false" />
-            <element signature="e#15926#17092#0" expanded="false" />
-            <element signature="e#17150#19401#0" expanded="false" />
-            <element signature="e#19411#19441#0" expanded="false" />
-            <element signature="e#19471#20259#0" expanded="false" />
-            <element signature="e#20293#21182#0" expanded="false" />
-            <element signature="e#21216#21851#0" expanded="false" />
-            <element signature="e#21889#22854#0" expanded="false" />
-            <element signature="e#22884#23203#0" expanded="false" />
-            <element signature="e#23233#24834#0" expanded="false" />
-            <element signature="e#24852#27024#0" expanded="false" />
-            <element signature="e#27034#27201#0" expanded="false" />
-            <element signature="e#27243#34688#0" expanded="false" />
-            <element signature="e#34698#34733#0" expanded="false" />
-            <element signature="e#34764#35045#0" expanded="false" />
-            <element signature="e#35055#35139#0" expanded="false" />
-            <element signature="e#35183#35553#0" expanded="false" />
-            <element signature="e#35563#35599#0" expanded="false" />
-            <element signature="e#35638#36752#0" expanded="false" />
-            <element signature="e#36762#36800#0" expanded="false" />
-            <element signature="e#36839#40292#0" expanded="false" />
-            <element signature="e#40343#41172#0" expanded="false" />
-            <element signature="e#41182#41216#0" expanded="false" />
-            <element signature="e#41248#41704#0" expanded="false" />
-            <element signature="e#41714#41748#0" expanded="false" />
-            <element signature="e#41782#42699#0" expanded="false" />
-            <element signature="e#42742#43003#0" expanded="false" />
-            <element signature="e#43033#43795#0" expanded="false" />
-            <element signature="e#43825#49480#0" expanded="false" />
-            <marker date="1403839139150" expanded="false" signature="1272:1286" placeholder="..." />
-            <marker date="1403839139150" expanded="false" signature="2702:2716" placeholder="..." />
-            <marker date="1403839139150" expanded="false" signature="16955:16981" placeholder="..." />
-            <marker date="1403839139150" expanded="false" signature="19546:19558" placeholder="..." />
-            <marker date="1403839139150" expanded="false" signature="37886:37925" placeholder="..." />
-            <marker date="1403839139150" expanded="false" signature="38901:38940" placeholder="..." />
-            <marker date="1403839139150" expanded="false" signature="49779:49798" placeholder="..." />
+            <element signature="e#9773#9961#0" expanded="false" />
+            <element signature="e#10008#10887#0" expanded="false" />
+            <element signature="e#10897#11007#0" expanded="false" />
+            <element signature="e#11039#11941#0" expanded="false" />
+            <element signature="e#11951#12025#0" expanded="false" />
+            <element signature="e#12057#12462#0" expanded="false" />
+            <element signature="e#12472#12643#0" expanded="false" />
+            <element signature="e#12702#15725#0" expanded="false" />
+            <element signature="e#15735#15858#0" expanded="false" />
+            <element signature="e#15883#17049#0" expanded="false" />
+            <element signature="e#17107#19358#0" expanded="false" />
+            <element signature="e#19368#19398#0" expanded="false" />
+            <element signature="e#19428#20216#0" expanded="false" />
+            <element signature="e#20250#21139#0" expanded="false" />
+            <element signature="e#21173#21808#0" expanded="false" />
+            <element signature="e#21846#22811#0" expanded="false" />
+            <element signature="e#22841#23160#0" expanded="false" />
+            <element signature="e#23190#24791#0" expanded="false" />
+            <element signature="e#24809#26981#0" expanded="false" />
+            <element signature="e#26991#27158#0" expanded="false" />
+            <element signature="e#27200#34645#0" expanded="false" />
+            <element signature="e#34655#34690#0" expanded="false" />
+            <element signature="e#34721#35002#0" expanded="false" />
+            <element signature="e#35012#35096#0" expanded="false" />
+            <element signature="e#35140#35510#0" expanded="false" />
+            <element signature="e#35520#35556#0" expanded="false" />
+            <element signature="e#35595#36709#0" expanded="false" />
+            <element signature="e#36719#36757#0" expanded="false" />
+            <element signature="e#36796#40249#0" expanded="false" />
+            <element signature="e#40300#41129#0" expanded="false" />
+            <element signature="e#41139#41173#0" expanded="false" />
+            <element signature="e#41205#41661#0" expanded="false" />
+            <element signature="e#41671#41705#0" expanded="false" />
+            <element signature="e#41739#42656#0" expanded="false" />
+            <element signature="e#42699#42960#0" expanded="false" />
+            <element signature="e#42990#43752#0" expanded="false" />
+            <element signature="e#43782#49437#0" expanded="false" />
+            <marker date="1403850491347" expanded="false" signature="1272:1286" placeholder="..." />
+            <marker date="1403850491347" expanded="false" signature="2702:2716" placeholder="..." />
+            <marker date="1403850491347" expanded="false" signature="16912:16938" placeholder="..." />
+            <marker date="1403850491347" expanded="false" signature="19503:19515" placeholder="..." />
+            <marker date="1403850491347" expanded="false" signature="37843:37882" placeholder="..." />
+            <marker date="1403850491347" expanded="false" signature="38858:38897" placeholder="..." />
+            <marker date="1403850491347" expanded="false" signature="49736:49755" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/ajaxfileupload.js">
+    <entry file="file://$PROJECT_DIR$/web-plug/views/layout_common.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="13" selection-start="6075" selection-end="6075" vertical-scroll-proportion="1.2395834" vertical-offset="1020" max-vertical-offset="2414">
+        <state line="8" column="79" selection-start="407" selection-end="407" vertical-scroll-proportion="-5.44" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-plug/public/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="266" column="17" selection-start="16238" selection-end="16254" vertical-scroll-proportion="-167.48148" vertical-offset="0" max-vertical-offset="6953">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-plug/public/stylesheets/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="44" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-plug/views/demo.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="155" column="49" selection-start="5328" selection-end="5328" vertical-scroll-proportion="0.41294965" vertical-offset="2348" max-vertical-offset="5253">
           <folding>
-            <element signature="e#2805#5524#0" expanded="false" />
+            <marker date="1403862020041" expanded="true" signature="6370:6547" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="6387:6539" placeholder="{&quot;type&quot;: 'post'...}" />
+            <marker date="1403862020041" expanded="true" signature="6513:6529" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="6593:7078" placeholder="{&quot;moduleName&quot;: 'bubbleTip'...}" />
+            <marker date="1403862020041" expanded="true" signature="6674:7072" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="6700:6840" placeholder="{&quot;required&quot;: true...}" />
+            <marker date="1403862020041" expanded="true" signature="6762:6826" placeholder="{&quot;url&quot;: '/ajaxValidation'...}" />
+            <marker date="1403862020041" expanded="true" signature="6869:7062" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="6897:7048" placeholder="{&quot;url&quot;: '/ajaxPassword'...}" />
+            <marker date="1403862020041" expanded="true" signature="7094:8128" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="7146:7426" placeholder="{&quot;width&quot;: '100px'...}" />
+            <marker date="1403862020041" expanded="true" signature="7443:8122" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
+            <marker date="1403862020041" expanded="true" signature="7771:7974" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="7831:7959" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="8022:8112" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="8135:8316" placeholder="/*...*/" />
+            <marker date="1403862020041" expanded="true" signature="8346:8966" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="8385:8954" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
+            <marker date="1403862020041" expanded="true" signature="8714:8803" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="8851:8941" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="8999:9874" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="9025:9167" placeholder="{&quot;checkboxClass&quot;: 'icheckbox_square-purple'...}" />
+            <marker date="1403862020041" expanded="true" signature="9198:9660" placeholder="[...]" />
+            <marker date="1403862020041" expanded="true" signature="9212:9422" placeholder="{&quot;name&quot;: '#name'...}" />
+            <marker date="1403862020041" expanded="true" signature="9271:9408" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="9298:9390" placeholder="[...]" />
+            <marker date="1403862020041" expanded="true" signature="9436:9650" placeholder="{&quot;name&quot;: '#class'...}" />
+            <marker date="1403862020041" expanded="true" signature="9496:9636" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="9522:9618" placeholder="[...]" />
+            <marker date="1403862020041" expanded="true" signature="9734:9776" placeholder="{...}" />
+            <marker date="1403862020041" expanded="true" signature="9823:9865" placeholder="{...}" />
           </folding>
         </state>
       </provider>

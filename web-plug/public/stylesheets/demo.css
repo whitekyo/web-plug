@@ -9,3 +9,9 @@ body { font-family: "klavika-web", "Microsoft Yahei", "微软雅黑", "\5fae\8f6
 .introduceTxt { color: #333333; width: 1000px; margin: 0 auto;  font-size: 12px;}
 .introduceCode { color: #CC3300; width: 1000px; margin: 0 auto; padding: 10px 0px; font-size: 12px;}
 h5 { padding: 10px 20px;}
+
+.x-pager { margin: 0px; padding: 0px;}
+.x-pager li { margin: 0px 5px 0px 0px; display: inline-block; *display: inline; *zoom:1; list-style-type: none;}
+.x-pager a { display: inline-block; text-align: center; height: 20px; padding: 2px; line-height: 20px; text-decoration: none; border: 1px solid #c7c7c7; width: 30px; color: #000; border-radius: 2px; font-size: 12px; font-family: "klavika-web", "Microsoft Yahei", "微软雅黑", "\5fae\8f6f\96c5\9ed1", "sans-serif";}
+.x-pager i { display: inline-block!important;}
+.x-pager a:link,.x-pager a:visited,.x-pager a:hover,.x-pager a:active {}
