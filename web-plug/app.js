@@ -17,12 +17,19 @@ var app = express();
 mongoose.connect('mongodb://127.0.0.1/todo_development');
 var Schema = mongoose.Schema;
 var ObjectId = Schema.ObjectId;
-var Task = new Schema({
+/*var Task = new Schema({
     task: String
 });
-var Task = mongoose.model('Task',Task);
+var Task = mongoose.model('Task',Task);*/
 
 // all environments
+var User = new Schema({
+    name: String,
+    age: String,
+    sex: String
+});
+var User = mongoose.model('User',User);
+
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
@@ -123,10 +130,21 @@ app.del('/tasks/:id',function(req,res){
         });
     });
 });
-
+/*
+* currentPage 表示当前页数
+* records 表示查询的条数
+* pageSize 表示一页要显示的个数
+* */
 app.get('/demo',function(req,res){
-    var id = randomNumber.randomString(5);
-    res.render('demo.jade',{title:'样品',id: id});
+    var id = randomNumber.randomString(5),currentPage = 1,pageSize = 2,param = {};
+    User.find({},function(err,doc){
+        param.data = doc.splice(0,pageSize);
+        param.currentPage = currentPage;
+        param.records = param.data.length;
+        param.pageSize = pageSize;
+        console.log(param.data);
+        res.render('demo.jade',{title:'样品',id: id,param: param});
+    });
 });
 
 
@@ -231,8 +249,6 @@ app.get('/ajaxValidation',function(req,res){
 });
 app.get('/ajaxPassword',function(req,res){
     var password =req.query.password,newpassword = req.query.newpassword,context = '';
-    console.log(password);
-    console.log(newpassword);
     if(password != newpassword){
         context = '密码输出错误';
         res.send({errorContent: context});
@@ -243,6 +259,21 @@ app.get('/ajaxPassword',function(req,res){
 app.post('/ajaxinput',function(req,res){
     res.send('true');
 });
+
+/*分页*/
+
+app.post('/pageCreate',function(req,res){
+    var name = req.body.name?req.body.name:'',
+        age = req.body.age?req.body.age: '';
+    User.create({
+        name: name,
+        age: age
+    },function(err,doc){
+        res.end();
+    });
+
+});
+
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
