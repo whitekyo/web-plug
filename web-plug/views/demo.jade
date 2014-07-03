@@ -148,42 +148,40 @@ article.container
         | 异步分页
     article.module
         div
-            table
-                thead
-                    tr
-                        th
-                            |name
-                        th
-                            |age
-                tbody
-                    - for(var i = 0;i<param.data.length;i++)
+            form
+                input(type="hidden",name="pageSize",value="#{param.pageSize}")
+                table
+                    thead
                         tr
-                            td #{param.data[i].name}
-                            td #{param.data[i].age}
-        div
-            ul.x-pager
-                li
-                    a(href="javascript:void(0);")
-                        | &lt;
-                li
-                    a(href="javascript:void(0);")
-                        | 1
-                li
-                    a(href="javascript:void(0);")
-                        | 2
-                li
-                    a(href="javascript:void(0);")
-                        | 3
-                li
-                    a(href="javascript:void(0);")
-                        | 4
-                li
-                    a(href="javascript:void(0);")
-                        | 5
-                li
-                    a(href="javascript:void(0);")
-                        | &gt;
-
+                            th
+                                |name
+                            th
+                                |age
+                    tbody.x-target
+                        - for(var i = 0;i<param.data.length;i++)
+                            tr
+                                td #{param.data[i].name}
+                                td #{param.data[i].age}
+        div.pagination
+            ul
+                - if(param.currentPage != 1)
+                    li
+                        a.ajaxTurnPage(href="javascript:void(0);",contextSel=".x-target",number="",baseUrl="/getPage",action="prev")
+                            | «
+                - var l = Math.ceil(param.records/param.pageSize)
+                - for(var i=0;i<l;i++)
+                    - if( param.currentPage == i+1)
+                        li.active
+                            a.ajaxTurnPage(href="javascript:void(0);",contextSel=".x-target",number="#{i+1}",baseUrl="/getPage")
+                                | #{i+1}
+                    - else
+                        li
+                            a.ajaxTurnPage(href="javascript:void(0);",contextSel=".x-target",number="#{i+1}",baseUrl="/getPage")
+                                | #{i+1}
+                - if(l != 1)
+                    li
+                        a.ajaxTurnPage(href="javascript:void(0);",contextSel="",number="",baseUrl="",action="next")
+                            | »
 
 script(type='text/javascript',src='JavaScript/RME.js')
 script(type='text/javascript',src='JavaScript/md5.js')
@@ -192,6 +190,7 @@ script(type='text/javascript',src='JavaScript/jquery-validation-1.11.1/messages_
 script(type='text/javascript',src='JavaScript/underscore-1.6.js')
 script(type='text/javascript',src='JavaScript/backbone.js')
 script(type='text/javascript',src='JavaScript/SunivoWeb-ui-1.0.1.js')
+script(type='text/javascript',src='JavaScript/handlebars.min.js')
 script
     var Man = Backbone.Model.extend({
         initialize: function(){
@@ -276,6 +275,18 @@ script
         });
     });
     var a = new sw();
+    a.initPage(
+        function(data) {
+            var data = JSON.parse(data);
+            var $ul = $(content).closest('.pagination');
+            $ul.find('.active').removeClass('active');
+            $ul.find('a').each(function(){
+                if(this.getAttribute('number') == data.param.currentPage){
+                    $(this).parent().addClass('active');
+                }
+            });
+        }
+    );
     a.formValidation({
         moduleName: 'bubbleTip',
         _context: $('#form1'),

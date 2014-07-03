@@ -995,6 +995,8 @@
             var contextSel = arguments.length > 0 ? arguments[0] : null;
             var baseUrl = arguments.length > 1 ? arguments[1] : "#";
             var number = arguments.length > 2 ? arguments[2] : "1";
+            var content = arguments.length > 3? arguments[3]: window;
+            var callback = arguments.length > 4? arguments[4] : function(){};
             $(contextSel).trigger({
                 type : "startLoad",
                 number : number
@@ -1009,12 +1011,7 @@
             var param = $.extend({
                 number : number
             }, this._serializeAjax(form));
-            $(contextSel).load(baseUrl, param, function() {
-                $(contextSel).trigger({
-                    type : "pageLoaded",
-                    number : number
-                });
-            });
+            $(contextSel).load(baseUrl, param, callback);
         },
         _serializeAjax: function(context){
             var obj=new Object();
@@ -1025,7 +1022,7 @@
             });
             return obj;
         },
-        initPage: function(){
+        initPage: function(callback){
             var $formPage = $('.turnPage'),$ajaxPage = $('.ajaxTurnPage'),that = this;
             if($formPage.length){
                 $formPage.closest('form').on('click','.turnPage',function(e){
@@ -1035,8 +1032,13 @@
                 });
             }else if($ajaxPage.length){
                 $ajaxPage.on('click',function(e){
-                    var target = e.target,number = target.getAttribute('number'),contextSel = target.getAttribute('contextSel'),baseUrl = target.getAttribute('baseUrl');
-                    that.ajaxTurn2Page(contextSel,baseUrl,number);
+                    var target = e.target,number = target.getAttribute('number'),contextSel = target.getAttribute('contextSel'),baseUrl = target.getAttribute('baseUrl'),action = target.getAttribute('action');
+                    if(!action){
+                        if(action == 'prev'){
+                            number = number - 1 > 0 ? number - 1:1;
+                        }else {}
+                    }
+                    that.ajaxTurn2Page(contextSel,baseUrl,number,target,callback);
                 });
             }
         }

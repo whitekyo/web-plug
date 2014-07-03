@@ -140,9 +140,8 @@ app.get('/demo',function(req,res){
     User.find({},function(err,doc){
         param.data = doc.splice(0,pageSize);
         param.currentPage = currentPage;
-        param.records = param.data.length;
+        param.records = doc.length;
         param.pageSize = pageSize;
-        console.log(param.data);
         res.render('demo.jade',{title:'样品',id: id,param: param});
     });
 });
@@ -273,6 +272,32 @@ app.post('/pageCreate',function(req,res){
     });
 
 });
+
+app.post('/getPage',function(req,res){
+    var pageSize = req.body.pageSize,
+        currentPage = req.body.number,
+        param = {},arr;
+    User.find({},function(err,doc){
+        arr = doc.splice(currentPage*pageSize,pageSize);
+        param.currentPage = currentPage;
+        param.records = doc.length;
+        param.pageSize = pageSize;
+        param.context = getContext(arr);
+        res.send({param: param});
+    });
+});
+
+function getContext(data){
+    var l = data.length,context = '';
+    for(var i=0;i<l;i++){
+        var _context = '';
+        _context = '<tr>';
+        _context += '<td>' + data[i].name + '</td>' + '<td>' + data[i].age + '</td>';
+        _context += '</tr>';
+        context += _context;
+    }
+    return context;
+}
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
