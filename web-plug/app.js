@@ -277,6 +277,8 @@ app.post('/getPage',function(req,res){
     var pageSize = req.body.pageSize,
         currentPage = req.body.number,
         param = {},arr;
+    console.log(pageSize);
+    console.log(currentPage);
     User.find({},function(err,doc){
         arr = doc.splice(currentPage*pageSize,pageSize);
         param.currentPage = currentPage;

@@ -997,6 +997,8 @@
             var number = arguments.length > 2 ? arguments[2] : "1";
             var content = arguments.length > 3? arguments[3]: window;
             var callback = arguments.length > 4? arguments[4] : function(){};
+            this.element = content;
+            var that = this;
             $(contextSel).trigger({
                 type : "startLoad",
                 number : number
@@ -1011,7 +1013,7 @@
             var param = $.extend({
                 number : number
             }, this._serializeAjax(form));
-            $(contextSel).load(baseUrl, param, callback);
+            $(contextSel).load(baseUrl, param, $.proxy(that.callback,that));
         },
         _serializeAjax: function(context){
             var obj=new Object();
@@ -1024,6 +1026,9 @@
         },
         initPage: function(callback){
             var $formPage = $('.turnPage'),$ajaxPage = $('.ajaxTurnPage'),that = this;
+            if(callback){
+                that.callback = callback;
+            }
             if($formPage.length){
                 $formPage.closest('form').on('click','.turnPage',function(e){
                     var $target = $(e.target),number = e.target.getAttribute('number'),$form = $target.closest('form');
@@ -1032,11 +1037,17 @@
                 });
             }else if($ajaxPage.length){
                 $ajaxPage.on('click',function(e){
-                    var target = e.target,number = target.getAttribute('number'),contextSel = target.getAttribute('contextSel'),baseUrl = target.getAttribute('baseUrl'),action = target.getAttribute('action');
-                    if(!action){
+                    var target = e.target,number = parseInt(target.getAttribute('number')),contextSel = target.getAttribute('contextSel'),baseUrl = target.getAttribute('baseUrl'),action = target.getAttribute('action');
+                    var pageNumber = $(target).closest('.pagination').attr('pageNumber');
+                    if(!number){
+                        number = parseInt($(target).closest('.pagination').attr('currentPage'));
+                    }
+                    if(action){
                         if(action == 'prev'){
                             number = number - 1 > 0 ? number - 1:1;
-                        }else {}
+                        }else if(action == 'next'){
+                            number = number + 1 > pageNumber ? pageNumber : number + 1;
+                        }
                     }
                     that.ajaxTurn2Page(contextSel,baseUrl,number,target,callback);
                 });
