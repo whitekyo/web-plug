@@ -1,0 +1,10 @@
+.lay { position: relative; float: left; width: 200px; height: 200px; border: 1px solid black; margin-right: 10px; margin-top: 5px;}
+body { overflow: hidden;}
+.box { position: absolute; width: 20px; height: 20px; left: 50%; margin-left: -10px; top: 50%; margin-top: -10px; background-color: red;}
+.btn { position: absolute; bottom: 5px; left: 50%; margin-left: -50px; display: inline-block; text-decoration: none;  color: #ffffff; width: 100px; text-align: center; font-size: 12px; font-family: '微软雅黑'; cursor: pointer;}
+.a_1,.a_7,.a_13,.a_19,.a_25,.a_31 { background-color: red;}
+.a_2,.a_8,.a_14,.a_20,.a_26 { background-color: yellow;}
+.a_3,.a_9,.a_15,.a_21,.a_27 { background-color: green;}
+.a_4,.a_10,.a_16,.a_22,.a_28 { background-color: blue;}
+.a_5,.a_11,.a_17,.a_23,.a_29 { background-color: purple;}
+.a_6,.a_12,.a_18,.a_24,.a_30 { background-color: gray;}

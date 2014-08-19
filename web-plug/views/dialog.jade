@@ -1,0 +1,172 @@
+//
+   Created by yangcheng on 14-8-19.
+html
+    head
+        title= title
+        link(href='/stylesheets/dialog.css',type='text/css',rel='stylesheet')
+        script(type='text/javascript',src='/JavaScript/jquery-1.10.2.js')
+        script(type='text/javascript',src='/JavaScript/jquery.easing.1.3.js')
+    body
+        div.lay
+            div.box
+            a.btn.a_1
+                | 默认
+        div.lay
+            div.box
+            a.btn.a_2
+                | swing
+        div.lay
+            div.box
+            a.btn.a_3
+                | easeInQuad
+        div.lay
+            div.box
+            a.btn.a_4
+                | easeOutQuad
+        div.lay
+            div.box
+            a.btn.a_5
+                | easeInOutQuad
+        div.lay
+            div.box
+            a.btn.a_6
+                | easeInCubic
+        div.lay
+            div.box
+            a.btn.a_7
+                | easeOutCubic
+        div.lay
+            div.box
+            a.btn.a_8
+                | easeInOutCubic
+        div.lay
+            div.box
+            a.btn.a_9
+                | easeInQuart
+        div.lay
+            div.box
+            a.btn.a_10
+                | easeOutQuart
+        div.lay
+            div.box
+            a.btn.a_11
+                | easeInOutQuart
+        div.lay
+            div.box
+            a.btn.a_12
+                | easeInQuint
+        div.lay
+            div.box
+            a.btn.a_13
+                | easeOutQuint
+        div.lay
+            div.box
+            a.btn.a_14
+                | easeInOutQuint
+        div.lay
+            div.box
+            a.btn.a_15
+                | easeInSine
+        div.lay
+            div.box
+            a.btn.a_16
+                | easeOutSine
+        div.lay
+            div.box
+            a.btn.a_17
+                | easeInOutSine
+        div.lay
+            div.box
+            a.btn.a_18
+                | easeInExpo
+        div.lay
+            div.box
+            a.btn.a_19
+                | easeOutExpo
+        div.lay
+            div.box
+            a.btn.a_20
+                | easeInOutExpo
+        script
+            var changeEvent = function(element,action){
+                element.animate({
+                'width': '100px',
+                'height': '100px',
+                'margin-left': '-50px',
+                'margin-top': '-50px'
+            },800,action);
+            }
+            $('.a_1').on('click',function(){
+                changeEvent($(this).prev(),'');
+            });
+            $('.a_2').on('click',function(){
+                changeEvent($(this).prev(),'swing');
+            });
+            $('.a_3').on('click',function(){
+                changeEvent($(this).prev(),'easeInQuad');
+            });
+            $('.a_4').on('click',function(){
+                changeEvent($(this).prev(),'easeOutQuad');
+            });
+            $('.a_5').on('click',function(){
+                changeEvent($(this).prev(),'easeInOutQuad');
+            });
+            $('.a_6').on('click',function(){
+                changeEvent($(this).prev(),'easeInCubic');
+            });
+            $('.a_7').on('click',function(){
+                changeEvent($(this).prev(),'easeOutCubic');
+            });
+            $('.a_8').on('click',function(){
+                changeEvent($(this).prev(),'easeInOutCubic');
+            });
+            $('.a_9').on('click',function(){
+                changeEvent($(this).prev(),'easeInQuart');
+            });
+            $('.a_10').on('click',function(){
+                changeEvent($(this).prev(),'easeOutQuart');
+            });
+            $('.a_11').on('click',function(){
+                changeEvent($(this).prev(),'easeInOutQuart');
+            });
+            $('.a_12').on('click',function(){
+                changeEvent($(this).prev(),'easeInQuint');
+            });
+            $('.a_13').on('click',function(){
+                changeEvent($(this).prev(),'easeOutQuint');
+            });
+            $('.a_14').on('click',function(){
+                changeEvent($(this).prev(),'easeInOutQuint');
+            });
+            $('.a_15').on('click',function(){
+                changeEvent($(this).prev(),'easeInSine');
+            });
+            $('.a_16').on('click',function(){
+                changeEvent($(this).prev(),'easeOutSine');
+            });
+            $('.a_17').on('click',function(){
+                changeEvent($(this).prev(),'easeInOutSine');
+            });
+            $('.a_18').on('click',function(){
+                changeEvent($(this).prev(),'easeInExpo');
+            });
+            $('.a_19').on('click',function(){
+                changeEvent($(this).prev(),'easeOutExpo');
+            });
+            $('.a_20').on('click',function(){
+                changeEvent($(this).prev(),'easeInOutExpo');
+            });
+
+
+
+
+
+
+
+
+
+
+
+
+
+

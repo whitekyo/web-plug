@@ -55,6 +55,8 @@ app.get('/', routes.index);
 app.get('/bootstrap',routes.bootstrap);
 app.get('/users', user.list);
 app.get('/bootstrap3',routes.bootstrap3);
+
+app.get('/dialog',routes.dialog);
 app.post('/dopost',function(req,res){
     res.send(req.body);
 });
@@ -277,8 +279,6 @@ app.post('/getPage',function(req,res){
     var pageSize = req.body.pageSize,
         currentPage = req.body.number,
         param = {},arr;
-    console.log(pageSize);
-    console.log(currentPage);
     User.find({},function(err,doc){
         arr = doc.splice(currentPage*pageSize,pageSize);
         param.currentPage = currentPage;
