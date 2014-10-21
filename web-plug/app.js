@@ -55,6 +55,7 @@ app.get('/', routes.index);
 app.get('/bootstrap',routes.bootstrap);
 app.get('/users', user.list);
 app.get('/bootstrap3',routes.bootstrap3);
+app.get('/css',routes.css);
 
 app.get('/dialog',routes.dialog);
 app.post('/dopost',function(req,res){

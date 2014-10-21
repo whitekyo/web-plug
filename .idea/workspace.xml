@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0d71cd9-60ed-4e26-9c3f-0db2184380bc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-plug/public/stylesheets/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-plug/views/dialog.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-plug/public/JavaScript/jquery.easing.1.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-plug/views/css.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-plug/app.js" afterPath="$PROJECT_DIR$/web-plug/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-plug/routes/index.js" afterPath="$PROJECT_DIR$/web-plug/routes/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="web-plug.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="b0d71cd9-60ed-4e26-9c3f-0db2184380bc" time="1413893702543" ignored="false" />
+    <file path="/app.js" changelist="b0d71cd9-60ed-4e26-9c3f-0db2184380bc" time="1413893978950" ignored="false" />
+    <file path="/index.js" changelist="b0d71cd9-60ed-4e26-9c3f-0db2184380bc" time="1413893989752" ignored="false" />
+    <file path="/css.jade" changelist="b0d71cd9-60ed-4e26-9c3f-0db2184380bc" time="1413895356521" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,51 +32,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dialog.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-plug/public/stylesheets/dialog.css">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-plug/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="130" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+            <state line="57" column="27" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dialog.jade" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dialog.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-plug/views/dialog.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="34" selection-start="2257" selection-end="2257" vertical-scroll-proportion="0.44283646" vertical-offset="1461" max-vertical-offset="3382">
-              <folding>
-                <marker date="1408442330013" expanded="true" signature="2153:2376" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="2187:2349" placeholder="{&quot;width&quot;: '100px'...}" />
-                <marker date="1408442330013" expanded="true" signature="2420:2483" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="2529:2597" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="2643:2716" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="2762:2836" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="2882:2958" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="3004:3078" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="3124:3199" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="3245:3322" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="3368:3442" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="3489:3564" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="3611:3688" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="3735:3809" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="3856:3931" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="3978:4055" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="4102:4175" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="4222:4296" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="4343:4419" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="4466:4539" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="4586:4660" placeholder="{...}" />
-                <marker date="1408442330013" expanded="true" signature="4707:4783" placeholder="{...}" />
-              </folding>
+            <state line="2" column="0" selection-start="39" selection-end="312" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.easing.1.3.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/jquery.easing.1.3.js">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-plug/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="21" selection-start="4246" selection-end="4259" vertical-scroll-proportion="-7.6" vertical-offset="1083" max-vertical-offset="3325">
+            <state line="22" column="31" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="css.jade" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web-plug/views/css.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="87" column="60" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.44794953">
               <folding />
             </state>
           </provider>
@@ -105,18 +93,19 @@
         <option value="$PROJECT_DIR$/web-plug/public/stylesheets/demo.css" />
         <option value="$PROJECT_DIR$/web-plug/public/JavaScript/SunivoWeb-ui-1.0.1.js" />
         <option value="$PROJECT_DIR$/web-plug/views/demo.jade" />
-        <option value="$PROJECT_DIR$/web-plug/routes/index.js" />
-        <option value="$PROJECT_DIR$/web-plug/app.js" />
         <option value="$PROJECT_DIR$/web-plug/public/stylesheets/dialog.css" />
         <option value="$PROJECT_DIR$/web-plug/views/dialog.jade" />
+        <option value="$PROJECT_DIR$/web-plug/app.js" />
+        <option value="$PROJECT_DIR$/web-plug/routes/index.js" />
+        <option value="$PROJECT_DIR$/web-plug/views/css.jade" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1296" />
+    <option name="height" value="816" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -230,6 +219,10 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -248,10 +241,6 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -260,13 +249,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Jade" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Jade" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -278,16 +267,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.web-plug">
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="name" value="Dart" />
-      <option name="saveOutputToFile" value="false" />
-      <option name="showConsoleOnStdErr" value="false" />
-      <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -303,19 +282,10 @@
       <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="D:/nodejs/node" path-to-js-file="web-plug/app.js" working-dir="$PROJECT_DIR$">
-      <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
-    <configuration default="false" name="web-plug" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="D:/nodejs/node" path-to-js-file="web-plug/app.js" working-dir="$PROJECT_DIR$">
-      <browser start="false" url="" with-js-debugger="false" />
+    <configuration default="false" name="web-plug" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="web-plug/app.js" working-dir="$PROJECT_DIR$">
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
@@ -354,20 +324,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="816" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931727" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21849272" sideWeight="0.6323752" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21797931" sideWeight="0.61119515" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39030954" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38880485" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -375,25 +345,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16149461" sideWeight="0.6323752" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28514057" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USERS">
@@ -404,884 +355,162 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
     </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web-plug/views/demo.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="16" selection-start="5140" selection-end="5140" vertical-scroll-proportion="0.0" vertical-offset="2850" max-vertical-offset="7657">
-          <folding>
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '张三'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: 'post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;moduleName&quot;: 'bubbleTip'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;required&quot;: true...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/ajaxValidation'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/ajaxPassword'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;width&quot;: '100px'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;checkboxClass&quot;: 'icheckbox_square-purple'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '#name'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '#class'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/SunivoWeb-ui-1.0.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1054" column="9" selection-start="43047" selection-end="44560" vertical-scroll-proportion="0.0" vertical-offset="20026" max-vertical-offset="23883">
-          <folding>
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/stylesheets/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="29" selection-start="4664" selection-end="4664" vertical-scroll-proportion="0.0" vertical-offset="798" max-vertical-offset="931">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="303" column="3" selection-start="8632" selection-end="8632" vertical-scroll-proportion="0.0" vertical-offset="5151" max-vertical-offset="5270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/views/demo.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="16" selection-start="5140" selection-end="5140" vertical-scroll-proportion="0.0" vertical-offset="2296" max-vertical-offset="6851">
-          <folding>
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '张三'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: 'post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;moduleName&quot;: 'bubbleTip'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;required&quot;: true...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/ajaxValidation'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/ajaxPassword'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;width&quot;: '100px'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;checkboxClass&quot;: 'icheckbox_square-purple'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '#name'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '#class'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/SunivoWeb-ui-1.0.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="978" column="11" selection-start="41162" selection-end="41174" vertical-scroll-proportion="0.0" vertical-offset="16626" max-vertical-offset="21471">
-          <folding>
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/stylesheets/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="29" selection-start="4664" selection-end="4664" vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="284" column="40" selection-start="8134" selection-end="8134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/views/demo.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="113" selection-start="6697" selection-end="6697" vertical-scroll-proportion="0.0" vertical-offset="2704" max-vertical-offset="6885">
-          <folding>
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '张三'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: 'post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;moduleName&quot;: 'bubbleTip'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;required&quot;: true...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/ajaxValidation'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/ajaxPassword'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;width&quot;: '100px'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;checkboxClass&quot;: 'icheckbox_square-purple'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '#name'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '#class'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/SunivoWeb-ui-1.0.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1038" column="32" selection-start="43861" selection-end="43861" vertical-scroll-proportion="0.0" vertical-offset="17544" max-vertical-offset="21182">
-          <folding>
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/stylesheets/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="29" selection-start="4664" selection-end="4664" vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="32" selection-start="0" selection-end="7922" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="4845">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/views/demo.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="20" selection-start="0" selection-end="13106" vertical-scroll-proportion="0.0" vertical-offset="1597" max-vertical-offset="6698">
-          <folding>
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '张三'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: 'post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;moduleName&quot;: 'bubbleTip'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;required&quot;: true...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/ajaxValidation'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/ajaxPassword'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;width&quot;: '100px'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;checkboxClass&quot;: 'icheckbox_square-purple'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '#name'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '#class'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/backbone.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1585" column="10" selection-start="72597" selection-end="72785" vertical-scroll-proportion="0.0" vertical-offset="26945" max-vertical-offset="27115" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/stylesheets/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="60" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="7" selection-start="3613" selection-end="3613" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="4828">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/views/demo.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="11" selection-start="5123" selection-end="5123" vertical-scroll-proportion="0.0" vertical-offset="2328" max-vertical-offset="6579">
-          <folding>
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '张三'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: 'post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;moduleName&quot;: 'bubbleTip'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;required&quot;: true...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/ajaxValidation'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/ajaxPassword'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;width&quot;: '100px'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;checkboxClass&quot;: 'icheckbox_square-purple'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '#name'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '#class'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/backbone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1585" column="10" selection-start="72597" selection-end="72785" vertical-scroll-proportion="0.0" vertical-offset="26945" max-vertical-offset="27115" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/stylesheets/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="60" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="7" selection-start="3648" selection-end="3648" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4845">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/views/demo.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="11" selection-start="5123" selection-end="5123" vertical-scroll-proportion="0.0" vertical-offset="2328" max-vertical-offset="6579">
-          <folding>
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '张三'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: 'post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;moduleName&quot;: 'bubbleTip'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;required&quot;: true...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/ajaxValidation'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/ajaxPassword'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;width&quot;: '100px'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;checkboxClass&quot;: 'icheckbox_square-purple'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '#name'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '#class'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/backbone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1585" column="10" selection-start="72597" selection-end="72785" vertical-scroll-proportion="0.0" vertical-offset="26945" max-vertical-offset="27115" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/stylesheets/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="60" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="59" selection-start="4419" selection-end="4419" vertical-scroll-proportion="0.0" vertical-offset="2487" max-vertical-offset="4318">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/ajaxfileupload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="48" selection-start="0" selection-end="7382" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="3672" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/SunivoWeb-ui-1.0.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="267" column="42" selection-start="9637" selection-end="9637" vertical-scroll-proportion="0.0" vertical-offset="4539" max-vertical-offset="21250">
-          <folding>
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/views/demo.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="49" selection-start="5328" selection-end="5328" vertical-scroll-proportion="0.0" vertical-offset="2348" max-vertical-offset="5253">
-          <folding>
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '张三'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: 'post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;moduleName&quot;: 'bubbleTip'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;required&quot;: true...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/ajaxValidation'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/ajaxPassword'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;width&quot;: '100px'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;checkboxClass&quot;: 'icheckbox_square-purple'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '#name'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '#class'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/stylesheets/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="44" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="39" selection-start="4164" selection-end="4164" vertical-scroll-proportion="0.0" vertical-offset="2635" max-vertical-offset="4267">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/ajaxfileupload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="41" selection-start="6742" selection-end="6742" vertical-scroll-proportion="0.0" vertical-offset="3247" max-vertical-offset="3604" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/views/demo.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="20" selection-start="5058" selection-end="5058" vertical-scroll-proportion="0.0" vertical-offset="2465" max-vertical-offset="4777">
-          <folding>
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '张三'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: 'post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;moduleName&quot;: 'bubbleTip'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;required&quot;: true...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/ajaxValidation'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/ajaxPassword'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;width&quot;: '100px'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;checkboxClass&quot;: 'icheckbox_square-purple'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '#name'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '#class'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/jquery-1.9.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="707" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/jquery-1.7.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="157386" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="271" selection-end="271" vertical-scroll-proportion="0.49394673" vertical-offset="0" max-vertical-offset="413" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/photo/glyphicons-halflings.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/css/font-awesome-ie7.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6630" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="266" column="17" selection-start="16238" selection-end="16254" vertical-scroll-proportion="-167.48148" vertical-offset="0" max-vertical-offset="6953" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/ajaxfileupload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="48" selection-start="0" selection-end="7382" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="3672" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/backbone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1585" column="10" selection-start="72597" selection-end="72785" vertical-scroll-proportion="0.69147" vertical-offset="26564" max-vertical-offset="27115" />
+        <state line="1585" column="10" selection-start="72597" selection-end="72785" vertical-scroll-proportion="0.69147" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/handlebars.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="538">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/SunivoWeb-ui-1.0.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1071" column="29" selection-start="45020" selection-end="45020" vertical-scroll-proportion="0.0" vertical-offset="20026" max-vertical-offset="23883">
-          <folding>
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404726834879" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state line="1071" column="29" selection-start="45020" selection-end="45020" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-plug/public/stylesheets/demo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="29" selection-start="4664" selection-end="4664" vertical-scroll-proportion="0.6779661" vertical-offset="518" max-vertical-offset="931">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/views/layout_common.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="39" selection-end="844" vertical-scroll-proportion="-1.52" vertical-offset="0" max-vertical-offset="418">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="35" selection-start="337" selection-end="337" vertical-scroll-proportion="0.75821596" vertical-offset="0" max-vertical-offset="475">
+        <state line="42" column="29" selection-start="4664" selection-end="4664" vertical-scroll-proportion="0.6779661">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-plug/views/bootstrap.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.226804" vertical-offset="3192" max-vertical-offset="10184">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.226804" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-plug/views/bootstrap3.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.3591022" vertical-offset="1347" max-vertical-offset="1748">
-          <folding>
-            <marker date="1404724893840" expanded="false" signature="-1:-1" placeholder="/*...*/" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.3591022" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-plug/views/demo.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="294" column="43" selection-start="11042" selection-end="11057" vertical-scroll-proportion="-86.2" vertical-offset="3431" max-vertical-offset="7657">
-          <folding>
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '张三'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: 'post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;moduleName&quot;: 'bubbleTip'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;required&quot;: true...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/ajaxValidation'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/ajaxPassword'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;width&quot;: '100px'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: '/upload?method=post'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;checkboxClass&quot;: 'icheckbox_square-purple'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '#name'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: '#class'...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1404726947250" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
+        <state line="294" column="43" selection-start="11042" selection-end="11057" vertical-scroll-proportion="-86.2" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/app.js">
+    <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/jquery.easing.1.3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="4" selection-start="1355" selection-end="1355" vertical-scroll-proportion="-5.32" vertical-offset="855" max-vertical-offset="5928">
+        <state line="102" column="21" selection-start="4246" selection-end="4259" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-plug/public/stylesheets/dialog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="130" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="426">
+        <state line="0" column="130" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-plug/public/JavaScript/jquery.easing.1.3.js">
+    <entry file="file://$PROJECT_DIR$/web-plug/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="21" selection-start="4246" selection-end="4259" vertical-scroll-proportion="-7.6" vertical-offset="1083" max-vertical-offset="3325">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-plug/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="27" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-plug/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="31" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-plug/views/layout_common.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="39" selection-end="844" vertical-scroll-proportion="0.07886435">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-plug/views/dialog.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="34" selection-start="2257" selection-end="2257" vertical-scroll-proportion="0.44283646" vertical-offset="1461" max-vertical-offset="3382">
-          <folding>
-            <marker date="1408442330013" expanded="true" signature="2153:2376" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="2187:2349" placeholder="{&quot;width&quot;: '100px'...}" />
-            <marker date="1408442330013" expanded="true" signature="2420:2483" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="2529:2597" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="2643:2716" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="2762:2836" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="2882:2958" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="3004:3078" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="3124:3199" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="3245:3322" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="3368:3442" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="3489:3564" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="3611:3688" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="3735:3809" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="3856:3931" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="3978:4055" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="4102:4175" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="4222:4296" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="4343:4419" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="4466:4539" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="4586:4660" placeholder="{...}" />
-            <marker date="1408442330013" expanded="true" signature="4707:4783" placeholder="{...}" />
-          </folding>
+        <state line="2" column="0" selection-start="39" selection-end="312" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/tables.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="213" column="21" selection-start="4064" selection-end="4101" vertical-scroll-proportion="0.331565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-plug/views/css.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="60" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.44794953">
+          <folding />
         </state>
       </provider>
     </entry>

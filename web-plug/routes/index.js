@@ -18,3 +18,7 @@ exports.bootstrap3 = function(req,res){
 exports.dialog = function(req,res){
     res.render('dialog',{title: 'Dialogs'});
 };
+
+exports.css = function(req,res){
+    res.render('css',{title: 'Compatibility Of Css'});
+};
