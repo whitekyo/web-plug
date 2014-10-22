@@ -27,74 +27,128 @@ html
                     th
                         | IE9
                     th
-                        | FF
+                        | IE10
                     th
-                        | Safai
+                        | IE11
                     th
-                        | Chrome
+                        | FF(32+)
                     th
-                        | Opera
+                        | Safai(5.1.7+)
+                    th
+                        | Chrome(36+)
+                    th
+                        | Opera(25.0.1614.50+)
             tbody
                 tr
                     td
-                        | :link
+                        | :link(javascript:void(0);|#|###|url|空)
                     td
-                        | N
+                        | N | N | N | N | N
                     td
-                        | N
+                        | N | N | N | N | N
                     td
-                        | Y
+                        | N | Y | Y | N | N
                     td
-                        | Y
+                        | N | Y | Y | N | N
                     td
-                        | Y
-                    td
-                        |
+                        | N | Y | Y | N | N
                     td
                         |
                     td
                         |
                     td
-                        |
+                        | Y | N | N | N | N
+                    td
+                        | Y | Y | N | N | N
+                    td
+                        | Y | N | N | N | N
+                    td
+                        | Y | N | N | N | N
                 tr
                     td
-                        | :visited
+                        | :visited(同上)
                     td
-                        | Y
+                        | Y | Y | Y | Y | Y
                     td
-                        | Y
+                        | Y | Y | Y | Y | Y
                     td
-                        | N
+                        | Y | Y | Y | Y | Y
                     td
-                        | Y
+                        | Y | Y | Y | Y | Y
                     td
-                        | Y
-                    td
-                        |
+                        | Y | Y | Y | Y | Y
                     td
                         |
                     td
                         |
                     td
-                        |
+                        | N | Y | Y | Y | Y
+                    td
+                        | N | Y | Y | Y | Y
+                    td
+                        | N | Y | Y | Y | Y
+                    td
+                        | N | Y | Y | Y | Y
                 tr
                     td
-                        | :hover
+                        | :hover(同上)
                     td
-                        | Y
+                        | Y | Y | Y | Y | Y
                     td
-                        | Y
+                        | Y | Y | Y | Y | Y
                     td
-                        | Y
+                        | Y | Y | Y | Y | Y
                     td
-                        | Y
+                        | Y | Y | Y | Y | Y
                     td
-                        | Y
-                    td
-                        |
+                        | Y | Y | Y | Y | Y
                     td
                         |
                     td
                         |
                     td
+                        | Y | Y | Y | Y | Y
+                    td
+                        | Y | Y | Y | Y | Y
+                    td
+                        | Y | Y | Y | Y | Y
+                    td
+                        | Y | Y | Y | Y | Y
+                tr
+                    td
+                        | :active(同上)
+                    td
+                        | Y | Y | Y | - | Y
+                    td
+                        | Y | Y | Y | - | Y
+                    td
+                        | Y | Y | Y | - | Y
+                    td
+                        | Y | Y | Y | - | Y
+                    td
+                        | Y | Y | Y | - | Y
+                    td
                         |
+                    td
+                        |
+                    td
+                        | Y | Y | Y | - | Y
+                    td
+                        | Y | Y | Y | - | Y
+                    td
+                        | Y | Y | Y | - | Y
+                    td
+                        | Y | Y | Y | - | Y
+        ol
+            li
+                | :visited在FF，Chrome，safari，opera中，当href为#和###的情况下会根据css样式进行覆盖(可能会覆盖:link，safari可能默认是link颜色，当点击之后再重新刷新则被visited样式覆盖)。
+            li
+                | IE5.5 - IE6不支持:link(在有些url的情况下，IE5.5 - IE6可以支持:link，但点击之后尝试刷新，则失去:link效果)，IE7+部分支持:link，主流IE都支持:visited的正常显示。
+            li
+                | IE7与IE8+对:visited表现有差异。鼠标点击时，未松开时，IE8+已经启用:visited的样式，但IE7却只有失去焦点时才启用:visited样式
+            li
+                | IE5.5 - IE7对:active的表现为鼠标点击未松开时开始触发，直到当前元素失去焦点。IE8+和标准浏览器则表现为鼠标点击未松开时触发，直到鼠标松开
+            li
+                | 以上IE5.5 - IE9从ietester中测试，可以看出:hover在各个浏览器中的兼容性是最好的，其次是:active
+            li
+                | 对于href属性为空值时，IE5.5 - IE9表现为连接到桌面地址，而标准浏览器则是刷新页面
